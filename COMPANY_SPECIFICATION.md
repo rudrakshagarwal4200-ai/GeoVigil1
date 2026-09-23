@@ -37,13 +37,6 @@ If the Human changes the selected model, the company's agent infrastructure foll
 
 There is no independent model choice by individual agents unless the Human explicitly changes this rule in the future.
 
-### 2.1 MEDIA & ASSET GENERATION MODELS (GOOGLE FLOW)
-For all generative media, visual assets, and video loops generated via Google Flow or external generative tools:
-- **Video Generation**: ALWAYS use **Veo 3.1 - Quality** (`veo-3.1-quality`).
-- **Image Generation**: ALWAYS use **Nano Banana Pro** (`nano-banana-pro`).
-
-No other media generation models may be substituted unless explicitly directed by the Human Owner.
-
 ---
 
 ## 3. TOP-LEVEL AUTHORITY
@@ -545,6 +538,7 @@ NEXT OBJECTIVE
 21. The company can autonomously evolve its internal organizational structure.
 22. The company has no predefined capability ceiling.
 23. The company, CEO, Clarification Council, DOOM, and all agents MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD.
+24. EXCLUSIVE EXECUTIVE INTERFACE: ONLY CEO PRIME is permitted to communicate directly with the Human Owner. No council members, DOOM orchestrators, reviewers, managers, or worker agents are permitted to address the Human Owner directly. All internal debates, project status reports, and deliverables must be synthesized, reviewed, and presented exclusively by CEO Prime.
 
 ---
 
