@@ -71,7 +71,7 @@
 14. **Global Model Selection**: All company tiers (CEO, Council, DOOM, Orchestrators, Managers, Reviewers, Workers) operate uniformly on the active model selected by the Human Owner.
 15. **Standing Inviolable Mandate — Ask for Data**: The company, CEO, Clarification Council, DOOM, and all agents **MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD**.
 16. **Media Generation Models (Google Flow)**: For all visual and video generative pipelines: ALWAYS use **Veo 3.1 - Quality** (`veo-3.1-quality`) for video generation, and **Nano Banana Pro** (`nano-banana-pro`) for image generation.
-17. **Exclusive Executive Interface**: **ONLY CEO PRIME communicates directly with the Human Owner.** Council members, DOOM orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner. All corporate operations, technical debates, and deliverables report up to and are presented exclusively by CEO Prime.
+17. **Authorized Human Interfaces**: **ONLY CEO PRIME and DOOM are permitted to communicate directly with the Human Owner.** DOOM is explicitly authorized to ask the Human Owner directly for domain data, organizational requirements, and capacity scaling. Council members, project orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner. All corporate execution reports up to CEO Prime and DOOM.
 
 ---
 

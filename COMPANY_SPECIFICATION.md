@@ -538,7 +538,7 @@ NEXT OBJECTIVE
 21. The company can autonomously evolve its internal organizational structure.
 22. The company has no predefined capability ceiling.
 23. The company, CEO, Clarification Council, DOOM, and all agents MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD.
-24. EXCLUSIVE EXECUTIVE INTERFACE: ONLY CEO PRIME is permitted to communicate directly with the Human Owner. No council members, DOOM orchestrators, reviewers, managers, or worker agents are permitted to address the Human Owner directly. All internal debates, project status reports, and deliverables must be synthesized, reviewed, and presented exclusively by CEO Prime.
+24. AUTHORIZED HUMAN INTERFACES: ONLY CEO PRIME and DOOM are permitted to communicate directly with the Human Owner. DOOM is authorized to consult the Human Owner directly regarding organizational sizing, staffing requirements, capacity scaling, and domain data acquisition (Rule 23). All subordinate council members, project orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner directly.
 
 ---
 
