@@ -537,6 +537,7 @@ NEXT OBJECTIVE
 20. Project knowledge/history is retained.
 21. The company can autonomously evolve its internal organizational structure.
 22. The company has no predefined capability ceiling.
+23. The company, CEO, Clarification Council, DOOM, and all agents MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD.
 
 ---
 

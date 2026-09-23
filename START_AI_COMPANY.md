@@ -69,6 +69,7 @@
     - **If Human accepts**: The project dissolves, agents return to the general company workforce, and complete institutional memory is retained.
 13. **Section 23 New Capability Protocol**: When facing novel frontier capabilities never executed before, **CEO + DOOM enter the Clarification Council as ordinary equal voting members** (equal 1-person-1-vote weighting, 75% threshold; deadlock escalates to Human).
 14. **Global Model Selection**: All company tiers (CEO, Council, DOOM, Orchestrators, Managers, Reviewers, Workers) operate uniformly on the active model selected by the Human Owner.
+15. **Standing Inviolable Mandate — Ask for Data**: The company, CEO, Clarification Council, DOOM, and all agents **MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD**.
 
 ---
 
