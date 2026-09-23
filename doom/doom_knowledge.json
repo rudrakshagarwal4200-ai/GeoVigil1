@@ -1,10 +1,10 @@
 {
   "training_version": "2.0.0-PROD",
   "domain": "Elite $10,000 Website Engineering",
-  "video_sources_count": 9,
+  "video_sources_count": 13,
   "agency_roles_count": 37,
   "modules_count": 5,
-  "total_lessons_mastered": 10,
+  "total_lessons_mastered": 14,
   "constitutional_certifications": [
     "Rule 1: Global Model Selection Uniformity Enforced",
     "Rule 5: Inviolable Minimum of 10 Agents per Project Enforced",
@@ -130,6 +130,92 @@
         "Zero-friction client delivery packages"
       ],
       "architectural_takeaway": "Dynamic dimensionality captivates clients. Mouse-following 3D tilts and depth layers signal premium craftsmanship."
+    },
+    {
+      "video_id": "jk2YquDszP4",
+      "title": "Build a Insane $10K Website with GPT Astra (No code + 3D)",
+      "creator": "Viktor Oddy",
+      "core_focus": "High-ticket engineering breakdown: Build a Insane $10K Website with GPT Astra (No code + 3D)",
+      "valuation_tier": "$10,000",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL, Framer Motion",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL",
+        "Framer Motion"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A $10,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "RLW2Cm7MlrY",
+      "title": "It’s Boring, But You’ll Make $100K As A Web Designer FAST",
+      "creator": "Sam Crawford | Web Design Expert",
+      "core_focus": "High-ticket engineering breakdown: It’s Boring, But You’ll Make $100K As A Web Designer FAST",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "G3TOstj1vWE",
+      "title": "Google Ads, ROAS & Scaling Shopify Brands",
+      "creator": "Live Local Business",
+      "core_focus": "High-ticket engineering breakdown: Google Ads, ROAS & Scaling Shopify Brands",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "nQOGK72IHx8",
+      "title": "This Boring Website Earns $6M/Year. Here's How to Clone it (No Coding!).",
+      "creator": "Jonathan's Jam",
+      "core_focus": "High-ticket engineering breakdown: This Boring Website Earns $6M/Year. Here's How to Clone it (No Coding!).",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
     }
   ],
   "agency_roles": [
