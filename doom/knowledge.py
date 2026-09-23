@@ -554,6 +554,14 @@ class WebsiteAgencyKnowledge:
         }
     }
 
+    # 6. GENERATIVE AI MEDIA MODEL STANDARDS
+    MEDIA_GENERATION_MODELS: Dict[str, str] = {
+        "video": "Veo 3.1 - Quality",
+        "video_id": "veo-3.1-quality",
+        "image": "Nano Banana Pro",
+        "image_id": "nano-banana-pro"
+    }
+
     @classmethod
     def get_role(cls, role_id: str) -> AgencyRoleDefinition:
         for r in cls.AGENCY_ROLES:

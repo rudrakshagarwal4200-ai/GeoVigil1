@@ -37,6 +37,13 @@ If the Human changes the selected model, the company's agent infrastructure foll
 
 There is no independent model choice by individual agents unless the Human explicitly changes this rule in the future.
 
+### 2.1 MEDIA & ASSET GENERATION MODELS (GOOGLE FLOW)
+For all generative media, visual assets, and video loops generated via Google Flow or external generative tools:
+- **Video Generation**: ALWAYS use **Veo 3.1 - Quality** (`veo-3.1-quality`).
+- **Image Generation**: ALWAYS use **Nano Banana Pro** (`nano-banana-pro`).
+
+No other media generation models may be substituted unless explicitly directed by the Human Owner.
+
 ---
 
 ## 3. TOP-LEVEL AUTHORITY

@@ -114,8 +114,10 @@ class DOOMArchitecturalBrain:
         if analysis["requires_telemetry_hud"]:
             interactive_systems.append(WebsiteAgencyKnowledge.INTERACTIVE_BLUEPRINTS["live_telemetry_hud"])
 
-        # 4. Generative AI Asset Prompts
+        # 4. Generative AI Asset Prompts & Models (Constitutional Rule: Veo 3.1 Quality & Nano Banana Pro)
         asset_pipeline_prompts = {
+            "google_flow_video_model": WebsiteAgencyKnowledge.MEDIA_GENERATION_MODELS["video"],
+            "google_flow_image_model": WebsiteAgencyKnowledge.MEDIA_GENERATION_MODELS["image"],
             "google_flow_orbit_prompt": f"Slow 360-degree seamless camera turntable orbit of {project_name}, hyperrealistic studio lighting, dark obsidian background, rim lights, 8k resolution, cinematic smoothness",
             "google_whisk_product_prompt": f"Close-up macro shot of {project_name} precision craftsmanship, titanium and gold materials, dramatic luxury lighting, depth of field, photorealistic 8k octane render",
             "ffmpeg_sequence_command": "ffmpeg -i input_orbit.mp4 -vf 'fps=30,scale=1920:1080:flags=lanczos' -vcodec libwebp -lossless 0 -compression_level 6 -q:v 85 frames/frame_%04d.webp"

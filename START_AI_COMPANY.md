@@ -70,6 +70,7 @@
 13. **Section 23 New Capability Protocol**: When facing novel frontier capabilities never executed before, **CEO + DOOM enter the Clarification Council as ordinary equal voting members** (equal 1-person-1-vote weighting, 75% threshold; deadlock escalates to Human).
 14. **Global Model Selection**: All company tiers (CEO, Council, DOOM, Orchestrators, Managers, Reviewers, Workers) operate uniformly on the active model selected by the Human Owner.
 15. **Standing Inviolable Mandate — Ask for Data**: The company, CEO, Clarification Council, DOOM, and all agents **MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD**.
+16. **Media Generation Models (Google Flow)**: For all visual and video generative pipelines: ALWAYS use **Veo 3.1 - Quality** (`veo-3.1-quality`) for video generation, and **Nano Banana Pro** (`nano-banana-pro`) for image generation.
 
 ---
 
