@@ -13,7 +13,7 @@ DEFAULT_WORKSPACE = Path("e:/agy")
 
 class CompanyConfig(BaseModel):
     # Section 2 & 29: Global Model Selection
-    active_model: str = Field(default="gemini-2.5-flash", description="Human-selected global model name")
+    active_model: str = Field(default="gemini-3.8-flash", description="Human-selected global model name")
     fallback_to_simulation: bool = Field(default=True, description="Enable simulated reasoning if API keys are absent")
     
     # Section 9: Agent Creation rules
