@@ -1,10 +1,10 @@
 {
   "training_version": "2.0.0-PROD",
   "domain": "Elite $10,000 Website Engineering",
-  "video_sources_count": 116,
+  "video_sources_count": 211,
   "agency_roles_count": 37,
   "modules_count": 5,
-  "total_lessons_mastered": 117,
+  "total_lessons_mastered": 212,
   "constitutional_certifications": [
     "Rule 1: Global Model Selection Uniformity Enforced",
     "Rule 5: Inviolable Minimum of 10 Agents per Project Enforced",
@@ -2442,6 +2442,1956 @@
         "Subtle CSS transform translations with transition curves (ease-out-expo)"
       ],
       "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "5YhfjQmvJ3w",
+      "title": "Lenis Smooth Scroll in Webflow",
+      "creator": "Timothy Ricks",
+      "core_focus": "High-ticket engineering breakdown: Lenis Smooth Scroll in Webflow",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "yaLFr5lCpP0",
+      "title": "Easily add SMOOTH SCROLL for Free with Lenis js - Elementor and Wordpress Tutorial",
+      "creator": "DMmotionarts",
+      "core_focus": "High-ticket engineering breakdown: Easily add SMOOTH SCROLL for Free with Lenis js - Elementor and Wordpress Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "fpyNjX-dVBs",
+      "title": "Lenis smooth scroll in under 4 minutes",
+      "creator": "Built With Code",
+      "core_focus": "High-ticket engineering breakdown: Lenis smooth scroll in under 4 minutes",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll, TailwindCSS, Framer Motion",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll",
+        "TailwindCSS",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "AW1yfBKRMKc",
+      "title": "Master Web Animations in 2 Hours | Build an Awwwards-Level Website",
+      "creator": "JavaScript Mastery",
+      "core_focus": "High-ticket engineering breakdown: Master Web Animations in 2 Hours | Build an Awwwards-Level Website",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), TailwindCSS, React / Next.js",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "TailwindCSS",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "E5NK61vO_sg",
+      "title": "Build Smooth Scrolling Parallax Effects with React & Framer Motion",
+      "creator": "Tom Is Loading",
+      "core_focus": "High-ticket engineering breakdown: Build Smooth Scrolling Parallax Effects with React & Framer Motion",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll, TailwindCSS, Framer Motion",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll",
+        "TailwindCSS",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "X7IBa7vZjmo",
+      "title": "Introducing ScrollTrigger for GSAP",
+      "creator": "GSAP Learning",
+      "core_focus": "High-ticket engineering breakdown: Introducing ScrollTrigger for GSAP",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "m4YKslkob9Q",
+      "title": "GSAP & ScrollTrigger Crash Course for Webflow",
+      "creator": "Timothy Ricks",
+      "core_focus": "High-ticket engineering breakdown: GSAP & ScrollTrigger Crash Course for Webflow",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "tBB6iUDvdhQ",
+      "title": "🚀 Scroll-Trigger | Learn What Matters",
+      "creator": "Sheryians Coding School",
+      "core_focus": "High-ticket engineering breakdown: 🚀 Scroll-Trigger | Learn What Matters",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "jsre8UOqNKA",
+      "title": "Creating Website with Scroll Animation using GSAP & Scroll Trigger | HTML, CSS, JS Tutorial",
+      "creator": "Gravity Coding",
+      "core_focus": "High-ticket engineering breakdown: Creating Website with Scroll Animation using GSAP & Scroll Trigger | HTML, CSS, JS Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "vq1Ijb9SeVI",
+      "title": "Master GSAP Animation – Full GSAP Course for Web Developers & Designers | Gravity Coding",
+      "creator": "Gravity Coding",
+      "core_focus": "High-ticket engineering breakdown: Master GSAP Animation – Full GSAP Course for Web Developers & Designers | Gravity Coding",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Lenis / Locomotive Scroll",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "Split-text stagger reveal on viewport entrance with cubic-bezier easing"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "I4WLvJLaMFE",
+      "title": "The Ultimate Guide to Scroll Animation (GSAP ScrollTrigger Techniques)",
+      "creator": "Pixel Grid UI",
+      "core_focus": "High-ticket engineering breakdown: The Ultimate Guide to Scroll Animation (GSAP ScrollTrigger Techniques)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, React / Next.js",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Three.js / WebGL",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "YvH8l_3r_GA",
+      "title": "How I Vibe coded Apple-Style $5000 Website With AI ( Claude)",
+      "creator": "Make First Million - Badar Munir",
+      "core_focus": "High-ticket engineering breakdown: How I Vibe coded Apple-Style $5000 Website With AI ( Claude)",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "6G4v1CrpSSc",
+      "title": "Web Design Pricing Guide from A Million Dollar Agency Owner - Part 1 Design and Code",
+      "creator": "AlphaEfficiency",
+      "core_focus": "High-ticket engineering breakdown: Web Design Pricing Guide from A Million Dollar Agency Owner - Part 1 Design and Code",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "5ZAsjUoMx1Y",
+      "title": "Build $50,000 Websites Using Claude Fable 5 (Full Tutorial)",
+      "creator": "Viktor Oddy",
+      "core_focus": "High-ticket engineering breakdown: Build $50,000 Websites Using Claude Fable 5 (Full Tutorial)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "7Cn6uGB8sSA",
+      "title": "Figma Make: Create Minimum Viable Product & Get $1million Investment Next-Level Product UIUX Design",
+      "creator": "Arttutor",
+      "core_focus": "High-ticket engineering breakdown: Figma Make: Create Minimum Viable Product & Get $1million Investment Next-Level Product UIUX Design",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "aGgVAHiz-nQ",
+      "title": "Road to $1M Day 1 : Creating Dental Clinic Website FIgma Design",
+      "creator": "Mahesh",
+      "core_focus": "High-ticket engineering breakdown: Road to $1M Day 1 : Creating Dental Clinic Website FIgma Design",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: React / Next.js",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "quJdL9ggETI",
+      "title": "Margaret Gould Stewart: How giant websites design for you (and a billion others, too)",
+      "creator": "TED",
+      "core_focus": "High-ticket engineering breakdown: Margaret Gould Stewart: How giant websites design for you (and a billion others, too)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "w2mNSOWiZbU",
+      "title": "Web Design Full PRO Course",
+      "creator": "Malewicz",
+      "core_focus": "High-ticket engineering breakdown: Web Design Full PRO Course",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "A9WunG2NRt4",
+      "title": "Building a $1000 dollar website",
+      "creator": "Developer Rahul",
+      "core_focus": "High-ticket engineering breakdown: Building a $1000 dollar website",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "YCrISgp4ht0",
+      "title": "This is How I Find App Ideas That Print ($100K/Month)",
+      "creator": "Builders Central by Zoho Creator",
+      "core_focus": "High-ticket engineering breakdown: This is How I Find App Ideas That Print ($100K/Month)",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "6NMnZsN_R28",
+      "title": "I Built a 100K Tech Page 🚀 by Creating Viral AI Reels 🤖🔥 (Proof ✅)",
+      "creator": "AI Guru ",
+      "core_focus": "High-ticket engineering breakdown: I Built a 100K Tech Page 🚀 by Creating Viral AI Reels 🤖🔥 (Proof ✅)",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "Split-text stagger reveal on viewport entrance with cubic-bezier easing"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "2pB6lBuvGxQ",
+      "title": "[100K views]Dreamweaver Beginner's Tutorial - Create first Webpage",
+      "creator": "Jong-Yoon Kim. Professor Kim",
+      "core_focus": "High-ticket engineering breakdown: [100K views]Dreamweaver Beginner's Tutorial - Create first Webpage",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "Yp9wTL3kcS4",
+      "title": "Awwwards Rebuild - Website Reveal Animation | Animated Landing Page HTML, CSS & GSAP (Responsive)",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Awwwards Rebuild - Website Reveal Animation | Animated Landing Page HTML, CSS & GSAP (Responsive)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Split-text stagger reveal on viewport entrance with cubic-bezier easing",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Split-text stagger reveal on viewport entrance with cubic-bezier easing"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "Xg9ihH15Uto",
+      "title": "How to Land a 100K/yr Tech Job - 10 Strategies",
+      "creator": "Fireship",
+      "core_focus": "High-ticket engineering breakdown: How to Land a 100K/yr Tech Job - 10 Strategies",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "lrsB-4SN4us",
+      "title": "Tutorial for 3D model scroll animation in website | React | Three.js | R3F | Blender",
+      "creator": "Techy Web Dev",
+      "core_focus": "High-ticket engineering breakdown: Tutorial for 3D model scroll animation in website | React | Three.js | R3F | Blender",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, TailwindCSS",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Three.js / WebGL",
+        "TailwindCSS",
+        "React / Next.js",
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "4AjmpabExsc",
+      "title": "Web Design and Development Certificate from Cornell University",
+      "creator": "eCornell",
+      "core_focus": "High-ticket engineering breakdown: Web Design and Development Certificate from Cornell University",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "AmHEfTSBXiY",
+      "title": "TOP 5 WEBSITES EVERY WEB DESIGNER SHOULD VISIT: Mind-blowing web design",
+      "creator": "Flux Academy",
+      "core_focus": "High-ticket engineering breakdown: TOP 5 WEBSITES EVERY WEB DESIGNER SHOULD VISIT: Mind-blowing web design",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "j_ZPV10bu54",
+      "title": "Designing With AI: Claude, Codex, Figma | Full Guide",
+      "creator": "UI Collective",
+      "core_focus": "High-ticket engineering breakdown: Designing With AI: Claude, Codex, Figma | Full Guide",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "ZifQwNbfzzI",
+      "title": "My Strategy to Sell Websites at 1 Lakhs - 2 Lakhs | High Ticket Selling Tutorial in Hindi",
+      "creator": "Alok kumar Badatia",
+      "core_focus": "High-ticket engineering breakdown: My Strategy to Sell Websites at 1 Lakhs - 2 Lakhs | High Ticket Selling Tutorial in Hindi",
+      "valuation_tier": "$10,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A $10,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "NGFhiCJEbdY",
+      "title": "The Only Three.js Tutorial You'll Ever Need (Shaders, R3F, Real Project) | 11 Hours",
+      "creator": "Sheryians Creative School",
+      "core_focus": "High-ticket engineering breakdown: The Only Three.js Tutorial You'll Ever Need (Shaders, R3F, Real Project) | 11 Hours",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL, React / Next.js",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "VnPZOWdVj7s",
+      "title": "Learn GLSL using ThreeJS",
+      "creator": "Nik Lever",
+      "core_focus": "High-ticket engineering breakdown: Learn GLSL using ThreeJS",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "_QNIz5d9i7Q",
+      "title": "Create a Stunning 3D Nebula Portal with Three.js | Interactive WebGL Tutorial",
+      "creator": "Coding Tips",
+      "core_focus": "High-ticket engineering breakdown: Create a Stunning 3D Nebula Portal with Three.js | Interactive WebGL Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL, React / Next.js",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "KGmGdtE2bZs",
+      "title": "7 Examples Proving Shaders are Amazing",
+      "creator": "DesignCourse",
+      "core_focus": "High-ticket engineering breakdown: 7 Examples Proving Shaders are Amazing",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "5posPiRm4DM",
+      "title": "How to Create a Scroll-Based Shader Transition (Three.js Tutorial)",
+      "creator": "WolfDev",
+      "core_focus": "High-ticket engineering breakdown: How to Create a Scroll-Based Shader Transition (Three.js Tutorial)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, Lenis / Locomotive Scroll",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Three.js / WebGL",
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "k4gCqk6tkbE",
+      "title": "threejs_playGnd - 1 ( three.js / webGL tutorial )",
+      "creator": "Nick Briz",
+      "core_focus": "High-ticket engineering breakdown: threejs_playGnd - 1 ( three.js / webGL tutorial )",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "f-9LEoYYvE4",
+      "title": "WebGL 3D Graphics Explained in 100 Seconds",
+      "creator": "Fireship",
+      "core_focus": "High-ticket engineering breakdown: WebGL 3D Graphics Explained in 100 Seconds",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL, Spline 3D",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL",
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "84cxda_7BEM",
+      "title": "Create a Stunning WebGL Reveal Loader Animation from Scratch",
+      "creator": "WolfDev",
+      "core_focus": "High-ticket engineering breakdown: Create a Stunning WebGL Reveal Loader Animation from Scratch",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Three.js / WebGL",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "Split-text stagger reveal on viewport entrance with cubic-bezier easing",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "JO-g2vz7BYE",
+      "title": "Apple-Style Image Sequence Animation On Scroll with GSAP In Webflow (No Lottie, No Code Tutorial)",
+      "creator": "Francesco Castronuovo and Supasaito",
+      "core_focus": "High-ticket engineering breakdown: Apple-Style Image Sequence Animation On Scroll with GSAP In Webflow (No Lottie, No Code Tutorial)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "g3-87faLC2A",
+      "title": "Webflow GSAP PNG Sequence - Video On Scroll - Mini Tutorial",
+      "creator": "Josh@Yolkk",
+      "core_focus": "High-ticket engineering breakdown: Webflow GSAP PNG Sequence - Video On Scroll - Mini Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "W_ybgPI-qCg",
+      "title": "Make Your Shopify Store Scroll Like Apple | PLAY VIDEO ON SCROLL",
+      "creator": "Daksh",
+      "core_focus": "High-ticket engineering breakdown: Make Your Shopify Store Scroll Like Apple | PLAY VIDEO ON SCROLL",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: React / Next.js",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "JZcAsTFc2YE",
+      "title": "Modern Landing Page Design | HTML, CSS & JavaScript",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Modern Landing Page Design | HTML, CSS & JavaScript",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "GVl674J9tdc",
+      "title": "Make Killer Animations like Apple Using WordPress and Motion.page!",
+      "creator": "MotionPage",
+      "core_focus": "High-ticket engineering breakdown: Make Killer Animations like Apple Using WordPress and Motion.page!",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "YTr6xymdEGs",
+      "title": "Responsive Product Landing Page | Change Image On Scroll | E Commerce Web | HTML, CSS & JavaScript",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Responsive Product Landing Page | Change Image On Scroll | E Commerce Web | HTML, CSS & JavaScript",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "d8hDgTNPaso",
+      "title": "Pure CSS Full Screen Menu (Awwwards Rebuilt)",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Pure CSS Full Screen Menu (Awwwards Rebuilt)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "U6heVF_yclc",
+      "title": "Ecommerce Website Design | Complete Ecommerce Website Tutorial (UI) HTML CSS JAVASCRIPT",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Ecommerce Website Design | Complete Ecommerce Website Tutorial (UI) HTML CSS JAVASCRIPT",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "BMs2-_Ozivk",
+      "title": "Responsive Landing Page With MouseMove Animation | HTML, CSS & JavaScript (Greensock)",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Responsive Landing Page With MouseMove Animation | HTML, CSS & JavaScript (Greensock)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "jhYFlWeyUvA",
+      "title": "Landing Page Reveal Animation? GSAP’s Out Here Flexing Again",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Landing Page Reveal Animation? GSAP’s Out Here Flexing Again",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Split-text stagger reveal on viewport entrance with cubic-bezier easing",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Split-text stagger reveal on viewport entrance with cubic-bezier easing"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "KvPd4fHrfZ8",
+      "title": "Sticky Section On Scroll | JavaScript Scroll Animation | Awwwards Rebuild | HTML, CSS & JavaScript",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: Sticky Section On Scroll | JavaScript Scroll Animation | Awwwards Rebuild | HTML, CSS & JavaScript",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "3QQPXgkLV40",
+      "title": "I Tried (and Failed) to Recreate This Viral Interactive Landing Page with Three.js",
+      "creator": "Codegrid",
+      "core_focus": "High-ticket engineering breakdown: I Tried (and Failed) to Recreate This Viral Interactive Landing Page with Three.js",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "VhXemORYup8",
+      "title": "Build a Smooth Parallax Scroll with Framer Motion, Lenis Scroll, Nextjs",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: Build a Smooth Parallax Scroll with Framer Motion, Lenis Scroll, Nextjs",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Lenis / Locomotive Scroll, Framer Motion",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Lenis / Locomotive Scroll",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "AqMESJ51e3o",
+      "title": "How to Make an Infinite Text Move on Scroll with Next.js and GSAP",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: How to Make an Infinite Text Move on Scroll with Next.js and GSAP",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), React / Next.js",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "3m0TXas0Vjw",
+      "title": "Figma Full Course 2026 – Master Figma from Zero to Pro.",
+      "creator": "Supercreator",
+      "core_focus": "High-ticket engineering breakdown: Figma Full Course 2026 – Master Figma from Zero to Pro.",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "VP7yuZI1pAY",
+      "title": "New Web Design Full Course [No Ads] | Beginner to Pro (2026)",
+      "creator": "Fadel",
+      "core_focus": "High-ticket engineering breakdown: New Web Design Full Course [No Ads] | Beginner to Pro (2026)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Framer Motion"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "j6Ule7GXaRs",
+      "title": "Learn Web Design For Beginners - Full Course",
+      "creator": "Flux Academy",
+      "core_focus": "High-ticket engineering breakdown: Learn Web Design For Beginners - Full Course",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "pEt0eiArTSg",
+      "title": "How to Make a Zoom Parallax using Next.js and Framer Motion",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: How to Make a Zoom Parallax using Next.js and Framer Motion",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Lenis / Locomotive Scroll, Framer Motion",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Lenis / Locomotive Scroll",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "mT_Jjn8RJdo",
+      "title": "Learn Figma in 6 Hours – Full Course for 2026",
+      "creator": "freeCodeCamp.org and Supercreator",
+      "core_focus": "High-ticket engineering breakdown: Learn Figma in 6 Hours – Full Course for 2026",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "gz2sAyuGY6Y",
+      "title": "Build an Awwwards Navigation Menu using Nextjs and Framer Motion",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: Build an Awwwards Navigation Menu using Nextjs and Framer Motion",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Framer Motion, React / Next.js",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "uQsyobT2Rv8",
+      "title": "Master Figma UI Design in 15 Minutes | This Tutorial Is For You!",
+      "creator": "Website Learners",
+      "core_focus": "High-ticket engineering breakdown: Master Figma UI Design in 15 Minutes | This Tutorial Is For You!",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "1NTKwpAVcHg",
+      "title": "Give Me 7 Minutes & Your Web Design Skills Will Take Off",
+      "creator": "Self-Made Web Designer",
+      "core_focus": "High-ticket engineering breakdown: Give Me 7 Minutes & Your Web Design Skills Will Take Off",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "1pW_sk-2y40",
+      "title": "world's shortest Figma course",
+      "creator": "Juxtopposed",
+      "core_focus": "High-ticket engineering breakdown: world's shortest Figma course",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "OnzkfM5y4xc",
+      "title": "Build EASILY Mind-blowing 3D Portfolio Website: Tutorial (Spline + Tilda)",
+      "creator": "Victoria Azarova",
+      "core_focus": "High-ticket engineering breakdown: Build EASILY Mind-blowing 3D Portfolio Website: Tutorial (Spline + Tilda)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "NOJCt7qyh9c",
+      "title": "Build an Awwwards Curved Menu with Nextjs and Framer Motion",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: Build an Awwwards Curved Menu with Nextjs and Framer Motion",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Framer Motion, React / Next.js",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "D-Pukz6JbE4",
+      "title": "Learn Three.js. Build a 3D Interactive Portfolio Website. Get Hired | Zero to Mastery",
+      "creator": "Zero To Mastery",
+      "core_focus": "High-ticket engineering breakdown: Learn Three.js. Build a 3D Interactive Portfolio Website. Get Hired | Zero to Mastery",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "kt0FrkQgw8w",
+      "title": "Build & Deploy an Amazing 3D Portfolio with React.js & Three.js | Beginner Three.js Tutorial",
+      "creator": "JavaScript Mastery",
+      "core_focus": "High-ticket engineering breakdown: Build & Deploy an Amazing 3D Portfolio with React.js & Three.js | Beginner Three.js Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, React / Next.js",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Three.js / WebGL",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "7vMRRT6nhKI",
+      "title": "Spline Tutorial for Beginners: 3D Website Crash Course",
+      "creator": "Flux Academy",
+      "core_focus": "High-ticket engineering breakdown: Spline Tutorial for Beginners: 3D Website Crash Course",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "Sb00VR5N-fw",
+      "title": "2 Ways to Make a Magnetic Effect using Framer Motion, GSAP and Nextjs",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: 2 Ways to Make a Magnetic Effect using Framer Motion, GSAP and Nextjs",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Framer Motion, React / Next.js",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "HKk4oLIzhhM",
+      "title": "Spline for Beginners | FREE COURSE",
+      "creator": "Envato Tuts+",
+      "core_focus": "High-ticket engineering breakdown: Spline for Beginners | FREE COURSE",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "ixSDNrOM3-I",
+      "title": "Create 3D UI Interactions for Websites with Spline - Free course",
+      "creator": "DesignCode",
+      "core_focus": "High-ticket engineering breakdown: Create 3D UI Interactions for Websites with Spline - Free course",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "hw-6HZvfD6E",
+      "title": "SPLINE 🌐 The COMPLETE Guide : FULL Tutorial : HOW TO use Spline Start to Finish",
+      "creator": "Eterenal Creative",
+      "core_focus": "High-ticket engineering breakdown: SPLINE 🌐 The COMPLETE Guide : FULL Tutorial : HOW TO use Spline Start to Finish",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "O_VWMp7nYVs",
+      "title": "New 3D Website Designer Will Blow Your Mind 😱 + $15,000 Prize! Omma by Spline Tool",
+      "creator": "Punit Chawla",
+      "core_focus": "High-ticket engineering breakdown: New 3D Website Designer Will Blow Your Mind 😱 + $15,000 Prize! Omma by Spline Tool",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "SclYmeF-VBk",
+      "title": "Build a 3D Portfolio Website with AI (No Code!) | Lovable + Spline Full Tutorial",
+      "creator": "MiladiCode",
+      "core_focus": "High-ticket engineering breakdown: Build a 3D Portfolio Website with AI (No Code!) | Lovable + Spline Full Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll, Spline 3D",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: Dark-mode luxury aesthetic with ambient radial glow and backdrop-filter glassmorphism"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll",
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "ntyE5kincko",
+      "title": "Create 3D for web, the easy way! (Spline)",
+      "creator": "Rachel How",
+      "core_focus": "High-ticket engineering breakdown: Create 3D for web, the easy way! (Spline)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Spline 3D",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Spline 3D"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "KIsuIj-Ll3k",
+      "title": "How To Vibecode An Apple-Style AI Website Fast Using Google’s Gemini Free AI Tools [No-Code]",
+      "creator": "Andy Lo",
+      "core_focus": "High-ticket engineering breakdown: How To Vibecode An Apple-Style AI Website Fast Using Google’s Gemini Free AI Tools [No-Code]",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "8fva1VtacT8",
+      "title": "Claude Code + Google AI Image Gen: Build Apple-Style Websites in Minutes",
+      "creator": "UI Collective",
+      "core_focus": "High-ticket engineering breakdown: Claude Code + Google AI Image Gen: Build Apple-Style Websites in Minutes",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll, Claude Code / AI Dev",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll",
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "GixCMumsL40",
+      "title": "Apple's Website Animation in Figma | Beginner Tutorial",
+      "creator": "DesignWithArash",
+      "core_focus": "High-ticket engineering breakdown: Apple's Website Animation in Figma | Beginner Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "xOkC7y_IjtA",
+      "title": "I Built an Apple-Level 3D Website in 15 Minutes Using Antigravity (100% Free, No Code)",
+      "creator": "Soumya Rjn Giri",
+      "core_focus": "High-ticket engineering breakdown: I Built an Apple-Level 3D Website in 15 Minutes Using Antigravity (100% Free, No Code)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "kRQbRAJ4-Fs",
+      "title": "Build and Deploy an Apple Website with React | Beginner Three.js & GSAP Tutorial",
+      "creator": "JavaScript Mastery",
+      "core_focus": "High-ticket engineering breakdown: Build and Deploy an Apple Website with React | Beginner Three.js & GSAP Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, React / Next.js",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Three.js / WebGL",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "muz3f67x6iA",
+      "title": "Claude Code + Higgsfield = $1000 3D Apple Like Website (Vibe Coded this Advanced AI Website)",
+      "creator": "Make Dream Website",
+      "core_focus": "High-ticket engineering breakdown: Claude Code + Higgsfield = $1000 3D Apple Like Website (Vibe Coded this Advanced AI Website)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Claude Code / AI Dev",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations",
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "wARbgs5Fmuw",
+      "title": "Simple solutions to responsive typography",
+      "creator": "Kevin Powell",
+      "core_focus": "High-ticket engineering breakdown: Simple solutions to responsive typography",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla JS Modular",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla JS Modular"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "O5pisaL3DHs",
+      "title": "How to Use clamp() in Divi 5 for Perfect Responsive Font Sizes",
+      "creator": "Mark Hendriksen",
+      "core_focus": "High-ticket engineering breakdown: How to Use clamp() in Divi 5 for Perfect Responsive Font Sizes",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "erqRw3E-vn4",
+      "title": "Responsive Typography with CSS Clamp",
+      "creator": "Tom Is Loading",
+      "core_focus": "High-ticket engineering breakdown: Responsive Typography with CSS Clamp",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "XLLluxLg_Xc",
+      "title": "CSS Typography: Fonts, Colors && Developer tools || Episode - 14",
+      "creator": "CodeHelp - by Babbar",
+      "core_focus": "High-ticket engineering breakdown: CSS Typography: Fonts, Colors && Developer tools || Episode - 14",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: React / Next.js",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "O6Jb7mYwpZ4",
+      "title": "Responsive Typography With Variables | Figma Tutorial",
+      "creator": "DesignWithArash",
+      "core_focus": "High-ticket engineering breakdown: Responsive Typography With Variables | Figma Tutorial",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "q-_cIlttYBc",
+      "title": "Fixing fluid typography",
+      "creator": "Kevin Powell",
+      "core_focus": "High-ticket engineering breakdown: Fixing fluid typography",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "t2JzGmqZhYQ",
+      "title": "Min Max Font Size Responsive Fluid Typography | Auto Resize Font | CSS Tricks | Clamp CSS Function",
+      "creator": "WebStylePress",
+      "core_focus": "High-ticket engineering breakdown: Min Max Font Size Responsive Fluid Typography | Auto Resize Font | CSS Tricks | Clamp CSS Function",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "gbKXyB2qqLI",
+      "title": "Use CSS clamp() with GreenSock for Responsive Animated Typography",
+      "creator": "snorklTV",
+      "core_focus": "High-ticket engineering breakdown: Use CSS clamp() with GreenSock for Responsive Animated Typography",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock)",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "DIJQT7oiIh4",
+      "title": "React JS Website Animation Using Framer Motion #reactjs #framermotion #websiteanimation #hovereffect",
+      "creator": "CodeInn",
+      "core_focus": "High-ticket engineering breakdown: React JS Website Animation Using Framer Motion #reactjs #framermotion #websiteanimation #hovereffect",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion, React / Next.js",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "zDCbzaGvMmI",
+      "title": "6 Simple Ways to Animate Your Framer Site",
+      "creator": "Framer University",
+      "core_focus": "High-ticket engineering breakdown: 6 Simple Ways to Animate Your Framer Site",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion",
+        "Enforced motion physics: Custom magnetic cursor follow physics with hover scale transformations",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Framer Motion"
+      ],
+      "motion_patterns": [
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "ZzK8E-qEwo8",
+      "title": "Using Hover and Press Effects in Framer (Animation Lesson 2)",
+      "creator": "Framer",
+      "core_focus": "High-ticket engineering breakdown: Using Hover and Press Effects in Framer (Animation Lesson 2)",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Framer Motion"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "HTUd623n9Sg",
+      "title": "Animation on Mouse Hover | Product Card Animation using react-spring | Hindi",
+      "creator": "The Misfit Whale",
+      "core_focus": "High-ticket engineering breakdown: Animation on Mouse Hover | Product Card Animation using react-spring | Hindi",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: React / Next.js",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "FxBQa-0kpfs",
+      "title": "Gesture animation in react with framer motion",
+      "creator": "AGE CONCEPTS",
+      "core_focus": "High-ticket engineering breakdown: Gesture animation in react with framer motion",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion, React / Next.js",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: Macro-whitespace hierarchy preventing visual clutter and anchoring brand prestige"
+      ],
+      "tech_stack": [
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "SuqU904ZHA4",
+      "title": "Springy Animated Modals // Framer Motion & React Tutorial for Beginners",
+      "creator": "Fireship",
+      "core_focus": "High-ticket engineering breakdown: Springy Animated Modals // Framer Motion & React Tutorial for Beginners",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion, React / Next.js",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "o4rhL5X2Hks",
+      "title": "How to add Animation using Framer Motion in ReactJS |  ReactJS Tutorial in Hindi",
+      "creator": "CodinGyaan",
+      "core_focus": "High-ticket engineering breakdown: How to add Animation using Framer Motion in ReactJS |  ReactJS Tutorial in Hindi",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion, React / Next.js",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Framer Motion",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "kGjpRar_eNg",
+      "title": "The $100k Web Design Process I Wish I Had Sooner",
+      "creator": "Arnau Ros",
+      "core_focus": "High-ticket engineering breakdown: The $100k Web Design Process I Wish I Had Sooner",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Framer Motion",
+        "Enforced motion physics: Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Framer Motion"
+      ],
+      "motion_patterns": [
+        "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "j3_NR5zeVTA",
+      "title": "How I Changed 3 Things and Landed a $100K Web Client in 2026 (No Cold Calling)",
+      "creator": "TechNuggets With ShiftTech",
+      "core_focus": "High-ticket engineering breakdown: How I Changed 3 Things and Landed a $100K Web Client in 2026 (No Cold Calling)",
+      "valuation_tier": "$100K-$1,000,000",
+      "key_techniques": [
+        "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Vanilla Modular JS",
+        "CSS3 Custom Properties",
+        "Intersection Observer"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A $100K-$1,000,000 website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
     }
   ],
   "agency_roles": [
