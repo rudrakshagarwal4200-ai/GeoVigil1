@@ -1,10 +1,10 @@
 {
   "training_version": "2.0.0-PROD",
   "domain": "Elite $10,000 Website Engineering",
-  "video_sources_count": 111,
+  "video_sources_count": 116,
   "agency_roles_count": 37,
   "modules_count": 5,
-  "total_lessons_mastered": 112,
+  "total_lessons_mastered": 117,
   "constitutional_certifications": [
     "Rule 1: Global Model Selection Uniformity Enforced",
     "Rule 5: Inviolable Minimum of 10 Agents per Project Enforced",
@@ -2340,6 +2340,106 @@
       "motion_patterns": [
         "Pinned scroll-scrubbing tying interactive animation directly to scroll progress",
         "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "PxEK-k6Efi0",
+      "title": "From Pictures of Objects to 3D Three.js in MINUTES",
+      "creator": "DesignCourse",
+      "core_focus": "High-ticket engineering breakdown: From Pictures of Objects to 3D Three.js in MINUTES",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL, Claude Code / AI Dev",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL",
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "G-F5Qvy-7KM",
+      "title": "How I Build Insane Three.js Websites With Claude Opus 5",
+      "creator": "DesignCode",
+      "core_focus": "High-ticket engineering breakdown: How I Build Insane Three.js Websites With Claude Opus 5",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Three.js / WebGL, Claude Code / AI Dev",
+        "Enforced motion physics: 3D viewport camera orbit and model rotation mapped to user scroll depth",
+        "Structured visual tokens: Fluid responsive typography scales leveraging CSS clamp() for razor-sharp legibility"
+      ],
+      "tech_stack": [
+        "Three.js / WebGL",
+        "Claude Code / AI Dev"
+      ],
+      "motion_patterns": [
+        "3D viewport camera orbit and model rotation mapped to user scroll depth"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "nFwNWvN_CRk",
+      "title": "🚀 Lenis - Learn What Matters | Smooth Scrolling in Web",
+      "creator": "Sheryians Coding School",
+      "core_focus": "High-ticket engineering breakdown: 🚀 Lenis - Learn What Matters | Smooth Scrolling in Web",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "-CYruydmDfg",
+      "title": "Build a Smooth Scroll Landing Page using Nextjs, GSAP, Locomotive Scroll v5",
+      "creator": "Olivier Larose",
+      "core_focus": "High-ticket engineering breakdown: Build a Smooth Scroll Landing Page using Nextjs, GSAP, Locomotive Scroll v5",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: GSAP (GreenSock), Lenis / Locomotive Scroll, React / Next.js",
+        "Enforced motion physics: Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "GSAP (GreenSock)",
+        "Lenis / Locomotive Scroll",
+        "React / Next.js"
+      ],
+      "motion_patterns": [
+        "Inertia-based smooth scrolling (Lenis/Locomotive) eliminating native scroll stutter",
+        "Custom magnetic cursor follow physics with hover scale transformations"
+      ],
+      "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
+    },
+    {
+      "video_id": "fr85UI37dUA",
+      "title": "Learn Scrolling Animation with Locomotive JS! 🌈 | Animated Website Tutorial | HTML CSS JS",
+      "creator": "Sheryians Coding School",
+      "core_focus": "High-ticket engineering breakdown: Learn Scrolling Animation with Locomotive JS! 🌈 | Animated Website Tutorial | HTML CSS JS",
+      "valuation_tier": "High-Ticket ($10K+)",
+      "key_techniques": [
+        "Implemented core stack: Lenis / Locomotive Scroll",
+        "Enforced motion physics: Subtle CSS transform translations with transition curves (ease-out-expo)",
+        "Structured visual tokens: High-contrast editorial grid hierarchy with generous negative space"
+      ],
+      "tech_stack": [
+        "Lenis / Locomotive Scroll"
+      ],
+      "motion_patterns": [
+        "Subtle CSS transform translations with transition curves (ease-out-expo)"
       ],
       "architectural_takeaway": "A High-Ticket ($10K+) website succeeds through perceived bespoke craftsmanship: zero generic layout patterns, custom kinetic interactions, and instantaneous responsive performance."
     }

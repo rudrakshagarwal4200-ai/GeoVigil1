@@ -72,6 +72,7 @@
 15. **Standing Inviolable Mandate — Ask for Data**: The company, CEO, Clarification Council, DOOM, and all agents **MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD**.
 16. **Media Generation Models (Google Flow)**: For all visual and video generative pipelines: ALWAYS use **Veo 3.1 - Quality** (`veo-3.1-quality`) for video generation, and **Nano Banana Pro** (`nano-banana-pro`) for image generation.
 17. **Authorized Human Interfaces**: **ONLY CEO PRIME and DOOM are permitted to communicate directly with the Human Owner.** DOOM is explicitly authorized to ask the Human Owner directly for domain data, organizational requirements, and capacity scaling. Council members, project orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner. All corporate execution reports up to CEO Prime and DOOM.
+18. **Immediate File Persistence**: **After EVERY task, milestone, or operational step, save all output, state, deliverables, and progress directly into the target file itself immediately.** Holding state solely in ephemeral in-memory variables without disk persistence is strictly forbidden.
 
 ---
 

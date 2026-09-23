@@ -539,6 +539,7 @@ NEXT OBJECTIVE
 22. The company has no predefined capability ceiling.
 23. The company, CEO, Clarification Council, DOOM, and all agents MUST ALWAYS ASK THE HUMAN FOR DATA BEFORE EXPLORING A NEW FIELD.
 24. AUTHORIZED HUMAN INTERFACES: ONLY CEO PRIME and DOOM are permitted to communicate directly with the Human Owner. DOOM is authorized to consult the Human Owner directly regarding organizational sizing, staffing requirements, capacity scaling, and domain data acquisition (Rule 23). All subordinate council members, project orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner directly.
+25. IMMEDIATE FILE PERSISTENCE: After every task, milestone, sub-task, or operational cycle, all outputs, progress, state changes, and deliverables MUST be saved directly into the target file(s) immediately. Ephemeral or delayed memory buffering is strictly prohibited.
 
 ---
 
