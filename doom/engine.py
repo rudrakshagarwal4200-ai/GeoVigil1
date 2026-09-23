@@ -1,13 +1,18 @@
 """
 DOOM: The Company's Organizational Engine
-Sections 8, 9, 10: Dynamic project structure builder, agent synthesizer, and exclusivity enforcer.
+Sections 8, 9, 10, 12, 13, 15: Dynamic project structure builder, agent synthesizer,
+exclusivity enforcer, and trained Master of the 37-Agent Website Agency Taxonomy.
 """
 
+import os
+import json
 import uuid
 from typing import Dict, Any, List, Optional
 from pydantic import BaseModel
 from ai_company.config import config
 from ai_company.doom.staffing import StaffingCalculator, StaffingPlan
+from ai_company.doom.knowledge import WebsiteAgencyKnowledge
+from ai_company.doom.brain import DOOMArchitecturalBrain, WebsiteBlueprint
 from ai_company.council.parliament import CouncilDecision
 from ai_company.models.provider import global_model_provider
 from ai_company.database.repository import repo
@@ -22,12 +27,14 @@ class BuiltProjectOrganization(BaseModel):
     manager_ids: List[str]
     worker_ids: List[str]
     status: str = "INITIALIZED"
+    blueprint: Optional[WebsiteBlueprint] = None
 
 class DOOM:
     def __init__(self, agent_id: str = "DOOM-CORE", name: str = "DOOM Organizational Engine"):
         self.agent_id = agent_id
         self.name = name
         self.role = "DOOM"
+        self.trained_knowledge_path = "e:/agy/ai_company/doom/doom_knowledge.json"
         repo.register_agent(
             agent_id=self.agent_id,
             name=self.name,
@@ -35,6 +42,17 @@ class DOOM:
             tier="DOOM",
             project_id=None
         )
+
+    def is_trained(self) -> bool:
+        """Check if DOOM has successfully internalized the website agency training."""
+        return os.path.exists(self.trained_knowledge_path)
+
+    def get_trained_metadata(self) -> Optional[Dict[str, Any]]:
+        """Retrieve the persisted training metadata and weights."""
+        if not self.is_trained():
+            return None
+        with open(self.trained_knowledge_path, "r", encoding="utf-8") as f:
+            return json.load(f)
 
     def build_organization(self, council_decision: CouncilDecision,
                            project_name: str,
@@ -45,7 +63,7 @@ class DOOM:
         - Determines headcount (min 10, no upper limit)
         - Synthesizes 3 Orchestrators
         - Allocates Reviewers (1:10 ratio)
-        - Assigns Managers and Workers
+        - Assigns Managers and Workers using specialized 37-agent agency roles
         - Enforces single-project exclusivity
         """
         project_id = f"PRJ-{uuid.uuid4().hex[:8].upper()}"
@@ -56,63 +74,60 @@ class DOOM:
             complexity_score=complexity_score
         )
 
+        # Safely resolve objective text from council decision
+        objective_text = (
+            getattr(council_decision, "operational_specification", None)
+            or getattr(council_decision, "objective_text", "")
+            or project_name
+        )
+
+        # Generate specialized website agency blueprint
+        blueprint = DOOMArchitecturalBrain.synthesize_blueprint(
+            project_name=project_name,
+            objective_text=objective_text,
+            target_headcount=staffing.total_agents
+        )
+
         orchestrator_ids = []
         reviewer_ids = []
         manager_ids = []
         worker_ids = []
 
-        # 1. Synthesize 3 Orchestrators (Section 12, 13)
-        orchestrator_roles = [
-            ("Orchestrator Alpha", "Architecture & Strategic Alignment"),
-            ("Orchestrator Beta", "Technical Execution & Systems Integration"),
-            ("Orchestrator Gamma", "Verification, Reviewer Liaison & Quality")
-        ]
-        for i, (orch_name, orch_role) in enumerate(orchestrator_roles, start=1):
-            agent_id = f"{project_id}-ORCH-{i}"
-            repo.register_agent(
-                agent_id=agent_id,
-                name=f"{project_name} {orch_name}",
-                role=orch_role,
-                tier="ORCHESTRATOR",
-                project_id=project_id
-            )
-            orchestrator_ids.append(agent_id)
+        # Allocate agents using the specialized blueprint roles (zero generic roles!)
+        orch_idx = 1
+        rev_idx = 1
+        mgr_idx = 1
+        wrk_idx = 1
 
-        # 2. Synthesize Reviewers (Section 15: 1 per 10 agents ratio)
-        for i in range(1, staffing.reviewer_count + 1):
-            agent_id = f"{project_id}-REV-{i}"
-            repo.register_agent(
-                agent_id=agent_id,
-                name=f"Supervisory Reviewer {i}",
-                role="Continuous Supervisory Oversight & Rollback Sentinel",
-                tier="REVIEWER",
-                project_id=project_id
-            )
-            reviewer_ids.append(agent_id)
+        for role_assignment in blueprint.assigned_roles:
+            tier = role_assignment["tier"]
+            role_name = role_assignment["name"]
+            role_desc = role_assignment["description"]
 
-        # 3. Synthesize Managers (Section 14)
-        for i in range(1, staffing.manager_count + 1):
-            agent_id = f"{project_id}-MGR-{i}"
-            repo.register_agent(
-                agent_id=agent_id,
-                name=f"Project Manager {i}",
-                role=f"Workstream Manager (Track {i})",
-                tier="MANAGER",
-                project_id=project_id
-            )
-            manager_ids.append(agent_id)
+            if tier == "ORCHESTRATOR":
+                agent_id = f"{project_id}-ORCH-{orch_idx}"
+                orch_idx += 1
+                orchestrator_ids.append(agent_id)
+            elif tier == "REVIEWER":
+                agent_id = f"{project_id}-REV-{rev_idx}"
+                rev_idx += 1
+                reviewer_ids.append(agent_id)
+            elif tier == "MANAGER":
+                agent_id = f"{project_id}-MGR-{mgr_idx}"
+                mgr_idx += 1
+                manager_ids.append(agent_id)
+            else:
+                agent_id = f"{project_id}-WRK-{wrk_idx}"
+                wrk_idx += 1
+                worker_ids.append(agent_id)
 
-        # 4. Synthesize Workers / Coders (Section 12)
-        for i in range(1, staffing.worker_count + 1):
-            agent_id = f"{project_id}-WRK-{i}"
             repo.register_agent(
                 agent_id=agent_id,
-                name=f"Technical Specialist {i}",
-                role=f"Full-Stack Specialist & Coder {i}",
-                tier="WORKER",
+                name=f"{project_name} {role_name}",
+                role=f"{role_name} — {role_desc}",
+                tier=tier,
                 project_id=project_id
             )
-            worker_ids.append(agent_id)
 
         # Persist project structure in database
         repo.create_project_org(
@@ -120,9 +135,9 @@ class DOOM:
             name=project_name,
             objective_id=council_decision.objective_id,
             total_agents=staffing.total_agents,
-            total_reviewers=staffing.reviewer_count,
-            total_managers=staffing.manager_count,
-            total_workers=staffing.worker_count,
+            total_reviewers=len(reviewer_ids),
+            total_managers=len(manager_ids),
+            total_workers=len(worker_ids),
             orchestrator_ids=orchestrator_ids
         )
 
@@ -137,7 +152,8 @@ class DOOM:
             reviewer_ids=reviewer_ids,
             manager_ids=manager_ids,
             worker_ids=worker_ids,
-            status="ORGANIZED"
+            status="ORGANIZED",
+            blueprint=blueprint
         )
 
 # Global DOOM instance

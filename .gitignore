@@ -13,6 +13,7 @@ ai_company.db
 # Logs & temp files
 logs/
 *.log
+artifacts/memory_*.json
 
 # Environment & secrets
 .env

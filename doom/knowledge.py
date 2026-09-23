@@ -1,0 +1,574 @@
+"""
+DOOM Website Agency Knowledge Matrix
+Derived from the 9-Video Masterclass Corpus and the 37-Agent Website Agency Taxonomy.
+Codifies how to build $10,000 award-winning, high-converting, 3D scroll websites.
+"""
+
+from typing import Dict, List, Any
+from pydantic import BaseModel
+
+class VideoTutorialSource(BaseModel):
+    video_id: str
+    title: str
+    creator: str
+    core_focus: str
+    key_techniques: List[str]
+    architectural_takeaway: str
+
+class AgencyRoleDefinition(BaseModel):
+    role_id: str
+    name: str
+    department: str
+    tier: str
+    description: str
+    core_deliverables: List[str]
+    quality_gates: List[str]
+
+class DesignSystemToken(BaseModel):
+    token_name: str
+    category: str
+    value: str
+    description: str
+
+class WebsiteAgencyKnowledge:
+    """
+    Institutional knowledge base for DOOM on architecting and delivering
+    award-winning, 3D interactive, high-converting $10K websites.
+    """
+
+    # 1. THE 9 YOUTUBE VIDEO CURRICULUM SOURCES
+    VIDEO_SOURCES: List[VideoTutorialSource] = [
+        VideoTutorialSource(
+            video_id="snErQUyqwCU",
+            title="How to Build $10K Websites in Minutes (Claude AI)",
+            creator="Metics Media",
+            core_focus="Component-driven luxury architecture and high-ticket agency web production",
+            key_techniques=[
+                "Zero-framework vanilla modular components for maximum performance",
+                "High-contrast editorial typographic hierarchy (clamp-based dynamic scaling)",
+                "Hero section visual hook with immediate value proposition & dual CTA",
+                "Trust signal integration (client metrics, logos, certifications, reviews)"
+            ],
+            architectural_takeaway="A $10K website never looks like a template. It feels bespoke, loaded with negative space, razor-sharp typography, and instantaneous load times."
+        ),
+        VideoTutorialSource(
+            video_id="_PtVROzu3_w",
+            title="Build a $10K Website With Claude Opus 5.5 (No Code, Full Tutorial)",
+            creator="Bart Slodyczka",
+            core_focus="End-to-end luxury brand layout and interactive storytelling",
+            key_techniques=[
+                "Fluid CSS custom properties for unified design token systems",
+                "Sticky multi-tier navigation with blurred backdrop glassmorphism",
+                "Custom interactive carousels with swipe/drag physics",
+                "Zero dummy placeholder text; full brand narrative & persuasive microcopy"
+            ],
+            architectural_takeaway="Storytelling drives valuation. Structuring sections as a theatrical narrative elevates a $500 site into a $10,000 flagship digital experience."
+        ),
+        VideoTutorialSource(
+            video_id="DJMsXSr1jec",
+            title="Build $10,000 AI 3D Websites in 10 Minutes (Google Anti-Gravity Full Tutorial)",
+            creator="Shreyas Raj (RapidXAI)",
+            core_focus="3D interactive canvas scroll scrubbing using Google Antigravity & AI generation",
+            key_techniques=[
+                "Pinned HTML5 Canvas with frame-sequence scrubbing tied to scroll position",
+                "GSAP ScrollTrigger + Lenis smooth scrolling for stutter-free inertia",
+                "HUD-style interactive telemetry overlays with dynamic data readouts",
+                "Live product customizer changing finishes, materials, and camera perspectives"
+            ],
+            architectural_takeaway="Apple-style 3D scroll experiences command five figures. Pinned canvas scrubbing with preloaded WebP frame sequences delivers 60fps cinematic fluidity without 3D engine overhead."
+        ),
+        VideoTutorialSource(
+            video_id="h2MjhbwVKLk",
+            title="Build a $10K Website With GPT Astra (No Code, Full Tutorial)",
+            creator="Bart Slodyczka",
+            core_focus="High-converting agency funnels, lead capture psychology, and onboarding flows",
+            key_techniques=[
+                "High-ticket conversion funnels with multi-step qualification forms",
+                "Interactive pricing calculators and ROI estimators",
+                "Frictionless onboarding flows with instant confirmation states",
+                "Micro-animations on hover and active states (magnetic buttons, glow borders)"
+            ],
+            architectural_takeaway="Design without conversion is vanity. $10K clients pay for tangible revenue generation: qualified lead funnels, ROI calculators, and zero-friction user journeys."
+        ),
+        VideoTutorialSource(
+            video_id="VMvZuhcDdnw",
+            title="Build $10,000 Websites using Claude Code (Ultimate Guide)",
+            creator="Metics Media",
+            core_focus="Terminal-driven autonomous agent web engineering and multi-agent coordination",
+            key_techniques=[
+                "Decoupled prompt pipelines: Design Tokens -> DOM Layout -> Logic -> QA Audit",
+                "Zero hallucinated dependencies; standard web standards (HTML5/ESM/CSS3)",
+                "Automated linting and browser preview verification loops",
+                "Modular CSS architecture preventing cascade collisions"
+            ],
+            architectural_takeaway="Multi-agent orchestration ensures perfection: separating creative direction from frontend architecture and adversarial quality gates eliminates common AI web flaws."
+        ),
+        VideoTutorialSource(
+            video_id="h956KTuFKck",
+            title="I Built a $10,000 Luxury Watch Website With AI in 30 Minutes",
+            creator="Shreyas Raj",
+            core_focus="Ultra-luxury product showcase, 360-degree exploded movement, and concierge booking",
+            key_techniques=[
+                "360-degree exploded watch movement animation scrubbed on scroll",
+                "Champagne gold, titanium, and deep obsidian luxury colorway",
+                "Editorial serif headlines paired with technical monospaced telemetry",
+                "Interactive concierge VIP reservation pass generator with localStorage persistence"
+            ],
+            architectural_takeaway="Tactile micro-interactions and exploded product views create perceived luxury. VIP reservation systems provide immediate customer utility."
+        ),
+        VideoTutorialSource(
+            video_id="nPxMF2YV77I",
+            title="I Built $10000 Website With Free AI Tools In 15 Minutes",
+            creator="Creativo",
+            core_focus="Free generative AI asset pipelines and media synthesis",
+            key_techniques=[
+                "Google Whisk / Higgsfield consistent character & product angle rendering",
+                "AI-generated video turntable rotations converted to frame sequences",
+                "Web Audio API sound synthesis for subtle UI clicks and ambient feedback",
+                "Lightweight asset compression pipelines targeting sub-100kb WebP frames"
+            ],
+            architectural_takeaway="High production value relies on custom photorealistic media. Using AI generation pipelines to produce consistent 3D turntable loops turns static pages into luxury exhibits."
+        ),
+        VideoTutorialSource(
+            video_id="dn6MDl86fRY",
+            title="(REALLY) How To Build a $10,000 Website With CHATGPT 6 Codex Astra (MAX)",
+            creator="Darrel Wilson",
+            core_focus="Client presentation standards, design psychology, and responsive rigor",
+            key_techniques=[
+                "Responsive audit across 375px mobile, 768px tablet, 1440px desktop, and 4K displays",
+                "Touch-target minimum 48px ergonomics and thumb-zone navigation",
+                "Zero horizontal scrollbars across all screen widths",
+                "Speed performance: sub-1s First Contentful Paint and zero layout shifts"
+            ],
+            architectural_takeaway="Clients judge websites on mobile first. Flawless responsive layout, touch ergonomics, and lightning speed separate hobbyist sites from professional $10K commissions."
+        ),
+        VideoTutorialSource(
+            video_id="GPpYwjMoLio",
+            title="I Built $10000 Website With Free Al Tools In 10 Minutes",
+            creator="Viktor Oddy",
+            core_focus="Interactive 3D tilt effects, parallax depth, and live client demo polish",
+            key_techniques=[
+                "3D card tilt effects based on mouse cursor coordinates with smooth reset",
+                "Multi-layer parallax depth layers creating visual dimensionality",
+                "Instant modal windows for client demo scheduling and quotation",
+                "Zero-friction client delivery packages"
+            ],
+            architectural_takeaway="Dynamic dimensionality captivates clients. Mouse-following 3D tilts and depth layers signal premium craftsmanship."
+        )
+    ]
+
+    # 2. THE 37-AGENT WEBSITE AGENCY TAXONOMY
+    AGENCY_ROLES: List[AgencyRoleDefinition] = [
+        # Executive & Orchestration
+        AgencyRoleDefinition(
+            role_id="agency-master",
+            name="Master Orchestrator",
+            department="Executive & Governance",
+            tier="ORCHESTRATOR",
+            description="Directs project phases, coordinates sub-orchestrators, and enforces high-level quality gates.",
+            core_deliverables=["Project execution roadmap", "Cross-department phase coordination", "Final executive sign-off"],
+            quality_gates=["All 30 constitutional rules satisfied", "All department deliverables integrated"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-design",
+            name="Design Orchestrator",
+            department="Creative & Design",
+            tier="ORCHESTRATOR",
+            description="Directs creative vision, typography, color theory, design systems, and responsive layouts.",
+            core_deliverables=["Creative direction manifesto", "Art direction guidelines", "Visual hierarchy hierarchy"],
+            quality_gates=["Luxury aesthetic approved", "Zero generic template patterns"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-engineering",
+            name="Engineering Orchestrator",
+            department="Full-Stack Engineering",
+            tier="ORCHESTRATOR",
+            description="Directs full-stack architecture, technical stacks, code standards, and component modularity.",
+            core_deliverables=["Technical architecture blueprint", "Dependency validation", "Codebase modularity standard"],
+            quality_gates=["60fps performance budget maintained", "Zero external build bloat"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-product",
+            name="Product Orchestrator",
+            department="Executive & Product",
+            tier="MANAGER",
+            description="Synthesizes user briefs into structured product roadmaps, user stories, and feature specifications.",
+            core_deliverables=["Feature specification matrix", "User journey flows", "Acceptance criteria"],
+            quality_gates=["All client requirements mapped to testable features"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-requirements",
+            name="Requirements & Acceptance Engineer",
+            department="Executive & Product",
+            tier="WORKER",
+            description="Defines detailed functional requirements and testable edge-case specs.",
+            core_deliverables=["Functional test matrix", "Edge-case boundary criteria"],
+            quality_gates=["Zero ambiguous requirements"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-research",
+            name="Market & Domain Research Specialist",
+            department="Executive & Product",
+            tier="WORKER",
+            description="Evaluates competitive benchmarks, target demographics, and digital design trends.",
+            core_deliverables=["Competitive benchmark analysis", "Aesthetic reference dossier"],
+            quality_gates=["Rule 23 Human data solicitation respected"]
+        ),
+
+        # Creative & Visual
+        AgencyRoleDefinition(
+            role_id="agency-design-system",
+            name="Design System & Token Architect",
+            department="Creative & Design",
+            tier="MANAGER",
+            description="Standardizes CSS variables, typography scales, color palettes, and reusable tokens.",
+            core_deliverables=["Design tokens stylesheet (tokens.css)", "Typographic clamp scales", "Color palette definition"],
+            quality_gates=["All colors and spacing mapped to CSS variables", "Zero hardcoded magic numbers"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-ui-design",
+            name="UI Visual Designer & Layout Stylist",
+            department="Creative & Design",
+            tier="WORKER",
+            description="Crafts elegant visual hierarchy, spacing systems, and aesthetic component styling.",
+            core_deliverables=["Component layout styling", "Bespoke card designs", "Visual rhythm & whitespace"],
+            quality_gates=["Luxury Obsidian/Gold aesthetic consistency", "High-contrast legibility"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-ux",
+            name="UX Architect & Information Flow Designer",
+            department="Creative & Design",
+            tier="WORKER",
+            description="Structures site maps, user navigation funnels, and frictionless interaction paths.",
+            core_deliverables=["Information architecture map", "Navigation funnel design", "Thumb-zone mobile ergonomics"],
+            quality_gates=["User conversion funnel <= 3 steps", "Zero dead ends"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-copywriting",
+            name="Brand Copywriter & Storyteller",
+            department="Creative & Design",
+            tier="WORKER",
+            description="Writes persuasive, evocative, and brand-aligned headlines, microcopy, and manifests.",
+            core_deliverables=["Hero headlines & subtext", "Persuasive product descriptions", "Zero-dummy microcopy"],
+            quality_gates=["Zero placeholder/lorem ipsum text", "Emotional resonance score > 90%"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-asset",
+            name="Visual Asset & Media Producer",
+            department="Creative & Design",
+            tier="WORKER",
+            description="Generates and optimizes images, vector graphics, SVG iconography, and video loops.",
+            core_deliverables=["Google Whisk/Veo asset prompts", "WebP image sequences", "Optimized SVG icon system"],
+            quality_gates=["All assets compressed < 100kb", "Zero broken asset links"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-interaction",
+            name="Micro-Interactions & Animation Specialist",
+            department="Creative & Design",
+            tier="WORKER",
+            description="Builds fluid 60fps animations, scroll-scrubbing effects, and hover transitions.",
+            core_deliverables=["GSAP/Lenis scroll choreography", "HTML5 canvas scrubber engine", "Magnetic button physics"],
+            quality_gates=["Locked 60fps rAF rendering", "Hardware accelerated (will-change, transform3d)"]
+        ),
+
+        # Frontend Engineering
+        AgencyRoleDefinition(
+            role_id="agency-frontend-architect",
+            name="Frontend Architect & Lead",
+            department="Full-Stack Engineering",
+            tier="MANAGER",
+            description="Designs client-side state flow, component boundaries, and asset bundling strategies.",
+            core_deliverables=["Frontend directory hierarchy", "State management architecture", "Modular ESM imports"],
+            quality_gates=["Zero global variable pollution", "Clean separation of DOM and state"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-page-builder",
+            name="Semantic HTML & Layout Builder",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Constructs clean, accessible, and standards-compliant document structures.",
+            core_deliverables=["Semantic HTML5 document tree", "ARIA role assignments", "Section containers"],
+            quality_gates=["W3C valid semantic HTML", "Screen-reader landmark structure"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-component",
+            name="Component Developer & State Engineer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Implements modular, decoupled, and reusable UI components with local reactive state.",
+            core_deliverables=["Interactive product configurator", "Pricing calculator engine", "Modal drawers"],
+            quality_gates=["Zero side effects outside component root", "Reactive state updates"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-responsive",
+            name="Responsive & Viewport Matrix Specialist",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Ensures zero horizontal overflow and pixel-perfect layouts across mobile, tablet, and 4K.",
+            core_deliverables=["Fluid CSS media queries", "Touch-friendly layout overrides", "Mobile viewport lock"],
+            quality_gates=["Zero horizontal scroll at 375px, 768px, 1440px, 2560px", "Touch targets >= 48px"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-automation",
+            name="Automation Scripting & Build Pipelines",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Creates build scripts, local dev servers, hot reloaders, and bundle processors.",
+            core_deliverables=["Vite / local HTTP server config", "Asset processing scripts", "Build verification"],
+            quality_gates=["Sub-second local dev startup", "Zero configuration errors"]
+        ),
+
+        # Backend & Data
+        AgencyRoleDefinition(
+            role_id="agency-backend-architect",
+            name="Backend Architect & System Engineer",
+            department="Full-Stack Engineering",
+            tier="MANAGER",
+            description="Designs RESTful server endpoints, routing controllers, and resilient middleware.",
+            core_deliverables=["API architecture specification", "Endpoint routing definitions", "Middleware error handler"],
+            quality_gates=["Consistent JSON response envelopes", "HTTP status code precision"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-api",
+            name="API & Endpoint Developer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Implements JSON endpoints, request validation, error payloads, and HTTP status handling.",
+            core_deliverables=["Lead capture endpoint", "Reservation booking API", "Quote generation service"],
+            quality_gates=["Strict schema validation", "Sub-50ms API response time"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-database",
+            name="Database Schema & Persistence Engineer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Structures database tables, indexing, transactions, and migration scripts.",
+            core_deliverables=["SQL schema migrations", "Indexes on query filters", "Data persistence repository"],
+            quality_gates=["Zero SQL injection vulnerability", "ACID compliant transactions"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-auth",
+            name="Authentication & Session Security Engineer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Implements secure session tokens, cookie flags, CSRF tokens, and permissions.",
+            core_deliverables=["Session management", "CSRF token generator", "Role-based access control"],
+            quality_gates=["HttpOnly Secure SameSite cookies", "OWASP Auth compliance"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-cms-admin",
+            name="Admin Dashboard & CMS Engineer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Builds password-protected management interfaces for bookings, menus, and orders.",
+            core_deliverables=["Admin dashboard portal", "Lead management table", "Data export utilities"],
+            quality_gates=["Password hashing (bcrypt/argon2)", "Admin authorization wall"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-integration",
+            name="Third-Party & Webhook Integration Engineer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Integrates external payment gateways, email delivery, and cloud services.",
+            core_deliverables=["Stripe / payment webhook handler", "Resend / SMTP email notifications", "Cloud storage sync"],
+            quality_gates=["Idempotent webhook handling", "Encrypted secrets management"]
+        ),
+
+        # Quality Assurance & Supervisory
+        AgencyRoleDefinition(
+            role_id="agency-qa",
+            name="QA Orchestrator",
+            department="Supervisory & Review",
+            tier="MANAGER",
+            description="Establishes automated testing harnesses, multi-tier test matrices, and continuous quality gates.",
+            core_deliverables=["Comprehensive test harness", "Continuous regression test suite", "Supervisory quality gate"],
+            quality_gates=["100% test passing rate", "1:10 reviewer ratio enforced"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-release",
+            name="Release Orchestrator",
+            department="Supervisory & Review",
+            tier="MANAGER",
+            description="Governs production build bundling, environment readiness, deployment configurations, and delivery handoffs.",
+            core_deliverables=["Production release manifest", "Release gate validation", "Delivery package checksum"],
+            quality_gates=["Zero production regressions", "Verified artifact deployment"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-ruthless-client",
+            name="Ruthless Client & Acceptance Gatekeeper",
+            department="Supervisory & Review",
+            tier="REVIEWER",
+            description="Demands perfection against the original brief, rejecting any half-baked work.",
+            core_deliverables=["Client acceptance verdict", "Rejection punch-list", "Aesthetic scrutiny report"],
+            quality_gates=["Uncompromising client standard", "Zero tolerance for generic output"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-visual-qa",
+            name="Visual QA & Cross-Browser Inspector",
+            department="Supervisory & Review",
+            tier="REVIEWER",
+            description="Inspects typography, layout shifts (CLS), alignment bugs, and cross-browser rendering.",
+            core_deliverables=["Visual regression audit", "Font rendering verification", "Alignment discrepancy report"],
+            quality_gates=["Cumulative Layout Shift (CLS) < 0.05", "Pixel alignment verified"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-testing",
+            name="Test Engineer & Unit Test Author",
+            department="Supervisory & Review",
+            tier="WORKER",
+            description="Writes automated unit, integration, and contract tests for frontend and backend logic.",
+            core_deliverables=["Automated unit tests", "Integration test scenarios", "Mock API responses"],
+            quality_gates=[">85% code coverage", "Zero flaky tests"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-bug-hunter",
+            name="Bug Hunter & Edge-Case Specialist",
+            department="Supervisory & Review",
+            tier="WORKER",
+            description="Uncovers race conditions, off-by-one errors, and unhandled async failures.",
+            core_deliverables=["Edge-case boundary audit", "Race condition stress test", "Async rejection traps"],
+            quality_gates=["All unhandled promise rejections eliminated", "Zero silent UI crashes"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-browser-e2e",
+            name="Headless Browser E2E Automation Engineer",
+            department="Supervisory & Review",
+            tier="WORKER",
+            description="Automates full-page user journeys via Chrome DevTools Protocol or Playwright.",
+            core_deliverables=["E2E user journey scripts", "Booking flow verification", "Calculator math validation"],
+            quality_gates=["All critical user paths pass automatically"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-code-review",
+            name="Adversarial Code Reviewer & Linter",
+            department="Supervisory & Review",
+            tier="REVIEWER",
+            description="Audits pull requests and code modifications against strict maintainability rules.",
+            core_deliverables=["Code quality report", "Architecture rule enforcement", "Refactoring mandates"],
+            quality_gates=["Zero duplicate code blocks", "Strict naming convention adherence"]
+        ),
+
+        # Security & Performance
+        AgencyRoleDefinition(
+            role_id="agency-security-perf",
+            name="Security & Performance Orchestrator",
+            department="Security & Performance",
+            tier="MANAGER",
+            description="Enforces OWASP Top 10 security guardrails and sub-second Core Web Vitals.",
+            core_deliverables=["Security posture certification", "Performance budget scorecard"],
+            quality_gates=["OWASP compliance verified", "Performance score > 90/100"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-performance",
+            name="Core Web Vitals & Performance Optimizer",
+            department="Security & Performance",
+            tier="WORKER",
+            description="Optimizes LCP, FID, CLS, asset caching, and DOM complexity for maximum speed.",
+            core_deliverables=["LCP optimization", "Critical CSS inlining", "Preload tag definitions"],
+            quality_gates=["Largest Contentful Paint (LCP) < 1.2s", "Total Blocking Time (TBT) < 150ms"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-security",
+            name="OWASP Security & Penetration Auditor",
+            department="Security & Performance",
+            tier="WORKER",
+            description="Tests for XSS, SQL injection, CSRF, insecure headers, and open redirects.",
+            core_deliverables=["Vulnerability scan report", "Content Security Policy (CSP)", "Security headers setup"],
+            quality_gates=["Zero High or Critical vulnerabilities", "CSP header configured"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-accessibility",
+            name="Accessibility & WCAG 2.1 AA Compliance Engineer",
+            department="Security & Performance",
+            tier="WORKER",
+            description="Audits keyboard navigation, screen reader ARIA roles, and contrast ratios.",
+            core_deliverables=["WCAG 2.1 AA audit checklist", "Keyboard focus trap fixes", "Color contrast verification"],
+            quality_gates=["Color contrast ratio >= 4.5:1", "Full keyboard navigation tab-index"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-seo",
+            name="SEO & Semantic Specialist",
+            department="Security & Performance",
+            tier="WORKER",
+            description="Implements OpenGraph tags, JSON-LD Schema.org rich snippets, sitemaps, and meta tags.",
+            core_deliverables=["Schema.org JSON-LD microdata", "OpenGraph social preview meta", "Robots.txt & sitemap.xml"],
+            quality_gates=["Google Rich Results test passed", "Valid OpenGraph tags"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-deployment",
+            name="Deployment & Production Readiness Engineer",
+            department="Full-Stack Engineering",
+            tier="WORKER",
+            description="Prepares production entrypoints, systemd/PM2 configs, and health checks.",
+            core_deliverables=["Production readiness checklist", "Static deployment build", "Health check probe"],
+            quality_gates=["Zero deployment blocker warnings", "Single-command deployment"]
+        )
+    ]
+
+    # 3. THE $10K VISUAL DESIGN SYSTEM TOKENS
+    LUXURY_DESIGN_TOKENS: List[DesignSystemToken] = [
+        DesignSystemToken(token_name="--bg-primary", category="Color", value="#08080A", description="Ultra-deep obsidian background canvas"),
+        DesignSystemToken(token_name="--bg-secondary", category="Color", value="#121216", description="Subtle dark charcoal card and panel fill"),
+        DesignSystemToken(token_name="--accent-gold", category="Color", value="#D4AF37", description="Champagne luxury gold primary accent"),
+        DesignSystemToken(token_name="--accent-gold-glow", category="Color", value="rgba(212, 175, 55, 0.25)", description="Subtle gold radial backlight for cards and HUD elements"),
+        DesignSystemToken(token_name="--accent-emerald", category="Color", value="#10B981", description="Success and live telemetry status indicator"),
+        DesignSystemToken(token_name="--text-primary", category="Color", value="#F9FAFB", description="Near-pure white editorial typography"),
+        DesignSystemToken(token_name="--text-secondary", category="Color", value="#9CA3AF", description="Muted cool slate secondary and supporting text"),
+        DesignSystemToken(token_name="--border-subtle", category="Border", value="rgba(255, 255, 255, 0.08)", description="Hairline luxury divider and border"),
+        DesignSystemToken(token_name="--font-display", category="Typography", value="'Cormorant Garamond', 'Cinzel', serif", description="Bespoke luxury serif for hero display headlines"),
+        DesignSystemToken(token_name="--font-body", category="Typography", value="'Inter', -apple-system, BlinkMacSystemFont, sans-serif", description="Clean geometric Swiss sans-serif for UI and body"),
+        DesignSystemToken(token_name="--font-mono", category="Typography", value="'JetBrains Mono', monospace", description="Technical HUD telemetry and timestamp typography"),
+        DesignSystemToken(token_name="--ease-luxury", category="Motion", value="cubic-bezier(0.16, 1, 0.3, 1)", description="Quintic out deceleration curve for organic physical deceleration"),
+        DesignSystemToken(token_name="--blur-glass", category="Effect", value="blur(20px)", description="Backdrop filter for sticky floating navigation bars")
+    ]
+
+    # 4. 3D CANVAS SCRUBBING ENGINE BLUEPRINT
+    CANVAS_SCRUBBER_BLUEPRINT: Dict[str, Any] = {
+        "architecture": "Pinned HTML5 Canvas with RequestAnimationFrame (rAF) and LERP Interpolation",
+        "fps_target": 60,
+        "format": "WebP (80-85% quality, lossy with transparent alpha or obsidian backdrop)",
+        "frame_count_recommendation": "60 to 180 frames for full 360-degree rotation or exploded view",
+        "preloading_strategy": "Sequential asynchronous preloading with loaded count progress indicator",
+        "scroll_binding": "GSAP ScrollTrigger with scrub: 1 or Lenis smooth-scroll delta mapping",
+        "lerp_formula": "currentFrame += (targetFrame - currentFrame) * 0.1",
+        "resizing_strategy": "Canvas dynamic DPR (window.devicePixelRatio capped at 2.0) with cover-fit math"
+    }
+
+    # 5. ZERO-DUMMY HIGH-CONVERSION INTERACTIVE BLUEPRINTS
+    INTERACTIVE_BLUEPRINTS: Dict[str, Any] = {
+        "interactive_configurator": {
+            "name": "Bespoke Material & Finish Configurator",
+            "features": ["Color swatch selector", "Material finish toggle (Ceramic, Carbon, Titanium, Gold)", "Live price recalculation", "Active feature highlight"]
+        },
+        "instant_pricing_calculator": {
+            "name": "Dynamic High-Ticket ROI & Quotation Calculator",
+            "features": ["Dual slider range controls", "Real-time cost breakdown matrix", "Estimated delivery timeline", "One-click booking transition"]
+        },
+        "vip_reservation_pass": {
+            "name": "Luxury Concierge VIP Reservation Generator",
+            "features": ["Instant SVG QR code generation", "Unique serial number (e.g., #EMC-2026-XXXX)", "Save to localStorage", "Add-to-Calendar / PDF download trigger"]
+        },
+        "live_telemetry_hud": {
+            "name": "Precision Engineering Telemetry HUD",
+            "features": ["Live UTC / PST atomic clock", "Live system status indicator (e.g. ALL SYSTEMS NOMINAL)", "Active scroll percentage readout", "Coordinates overlay"]
+        }
+    }
+
+    @classmethod
+    def get_role(cls, role_id: str) -> AgencyRoleDefinition:
+        for r in cls.AGENCY_ROLES:
+            if r.role_id == role_id:
+                return r
+        raise KeyError(f"Role {role_id} not found in agency taxonomy")
+
+    @classmethod
+    def get_roles_by_department(cls, department: str) -> List[AgencyRoleDefinition]:
+        return [r for r in cls.AGENCY_ROLES if r.department == department]
+
+    @classmethod
+    def get_orchestrator_roles(cls) -> List[AgencyRoleDefinition]:
+        return [r for r in cls.AGENCY_ROLES if r.tier == "ORCHESTRATOR"]
+
+    @classmethod
+    def get_reviewer_roles(cls) -> List[AgencyRoleDefinition]:
+        return [r for r in cls.AGENCY_ROLES if r.tier == "REVIEWER"]
