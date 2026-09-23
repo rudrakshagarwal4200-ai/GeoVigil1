@@ -102,7 +102,9 @@ When deliberating on any Human Objective, simulate or convene these 20 specializ
 
 The software implementation of this corporation is already built, verified, and running on this machine:
 - **Local Engine Path**: `E:\agy\ai_company`
-- **GitHub Repository**: [https://github.com/rudrakshagarwal4200-ai/ai-company](https://github.com/rudrakshagarwal4200-ai/ai-company)
+- **GitHub Repositories**:
+  - Primary: [https://github.com/rudrakshagarwal4200-ai/GeoVigil1](https://github.com/rudrakshagarwal4200-ai/GeoVigil1)
+  - Mirror: [https://github.com/rudrakshagarwal4200-ai/ai-company](https://github.com/rudrakshagarwal4200-ai/ai-company)
 - **Database (Institutional Memory)**: `E:\agy\ai_company\ai_company.db`
 
 ### Terminal CLI Commands (Powershell / Bash)
@@ -140,7 +142,7 @@ All autonomous corporate machinery has been mobilized under the supreme command 
 - **Supervisory Sentinel**: Active (Loop/Drift Detection & State Rollback Online)
 - **Institutional Memory**: Persistent SQLite & JSON Ledger Active
 - **Local Runtime**: E:\agy\ai_company
-- **GitHub Repository**: https://github.com/rudrakshagarwal4200-ai/ai-company
+- **GitHub Repository**: https://github.com/rudrakshagarwal4200-ai/GeoVigil1 (Mirror: https://github.com/rudrakshagarwal4200-ai/ai-company)
 
 ---
 
