@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Company — Executive Command Center</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <div class="logo-mark">AGY</div>
+      <div>
+        <h1>ANTIGRAVITY AI CORPORATION</h1>
+        <p class="subtitle">Autonomous Corporate Operating System &bull; Human Supreme Authority</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="model-badge">
+        <span class="pulse-indicator"></span>
+        <span id="activeModelLabel">Model: Gemini 3.8 Flash</span>
+      </div>
+      <button class="btn btn-secondary" onclick="openModelModal()">Switch Model</button>
+    </div>
+  </header>
+
+  <main class="dashboard-grid">
+    <!-- Top Stats Bar -->
+    <section class="stats-row">
+      <div class="stat-card">
+        <span class="stat-title">Supreme Authority</span>
+        <span class="stat-value highlight">HUMAN OWNER</span>
+        <span class="stat-sub">Immutable Top-Level Constraint</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-title">Executive Intelligence</span>
+        <span class="stat-value">CEO PRIME</span>
+        <span class="stat-sub">Primary Intent Deconstructor</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-title">Clarification Council</span>
+        <span class="stat-value" id="statCouncilSeats">20 Seats</span>
+        <span class="stat-sub">75% Consensus Rule Locked</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-title">Organizational Engine</span>
+        <span class="stat-value">DOOM</span>
+        <span class="stat-sub">Elastic Staffing &bull; Min 10 Agents</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-title">Agents Spawned</span>
+        <span class="stat-value" id="statAgentsSpawned">0</span>
+        <span class="stat-sub">Dynamic Workforce Capacity</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-title">Projects Completed</span>
+        <span class="stat-value" id="statProjectsCompleted">0</span>
+        <span class="stat-sub">Institutional Memory Preserved</span>
+      </div>
+    </section>
+
+    <!-- Main Layout: 2 Columns -->
+    <div class="main-columns">
+      <!-- Left Column: Command & Operations -->
+      <div class="column-left">
+        <!-- Human Directive Dispatcher -->
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Human Objective Dispatcher</h2>
+            <span class="badge badge-gold">Supreme Input</span>
+          </div>
+          <p class="panel-desc">Submit an objective to initiate the corporate lifecycle (CEO &rarr; Council &rarr; DOOM &rarr; Project Org &rarr; Review &rarr; Delivery).</p>
+          <div class="form-group">
+            <label for="promptInput">Directive / Objective Prompt:</label>
+            <textarea id="promptInput" rows="4" placeholder="Enter objective for the company (e.g. 'Build a high-performance distributed caching proxy microservice with zero-alloc memory pools')..."></textarea>
+          </div>
+          <div class="form-row">
+            <div class="form-group flex-1">
+              <label for="explicitCountInput">Explicit Agent Count (Optional):</label>
+              <input type="number" id="explicitCountInput" placeholder="Auto (DOOM determines, min 10)" min="10">
+            </div>
+            <div class="form-group flex-1 checkbox-group">
+              <label>
+                <input type="checkbox" id="noveltyCheck"> Trigger Section 23 New Capability Council
+              </label>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" id="btnSubmitObjective" onclick="submitObjective()">Dispatch Objective to CEO</button>
+        </div>
+
+        <!-- Active Project Deliverables & Human Review Gateway -->
+        <div class="panel" id="deliveryPanel">
+          <div class="panel-header">
+            <h2>Active Project & Human Delivery Gateway</h2>
+            <span class="badge" id="projectStatusBadge">IDLE</span>
+          </div>
+          <div id="projectDetails" class="empty-state">No active project undergoing delivery. Dispatch an objective above.</div>
+          <div id="reviewActions" class="action-buttons hidden">
+            <button class="btn btn-success" onclick="reviewProject(true)">Accept & Dissolve (Preserve Knowledge)</button>
+            <button class="btn btn-danger" onclick="reviewProject(false)">Reject & Request Revision</button>
+          </div>
+        </div>
+
+        <!-- Clarification Council Chamber -->
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Clarification Council Chamber (20 Founding Seats)</h2>
+            <span class="badge badge-blue">Deliberative Parliament</span>
+          </div>
+          <div class="council-grid" id="councilSeatsContainer">
+            <!-- Loaded via app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Supervisory Telemetry & Institutional Memory -->
+      <div class="column-right">
+        <!-- Reviewer Supervisory Watchdog Radar -->
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Reviewer Supervisory Telemetry</h2>
+            <span class="badge badge-purple">Ratio 1:10 &bull; Continuous</span>
+          </div>
+          <p class="panel-desc">Monitoring for drift, loops, and knowledge contamination with graduated intervention & rollback.</p>
+          <div class="logs-container" id="reviewerLogs">
+            <div class="log-entry log-info">[STANDBY] Supervisory Reviewer radar online. Monitoring all active agent threads.</div>
+          </div>
+        </div>
+
+        <!-- Institutional Memory Vault -->
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Institutional Memory Vault</h2>
+            <span class="badge badge-gold">Permanent Retention</span>
+          </div>
+          <p class="panel-desc">Retained architectural records, decisions, successes, and failure post-mortems.</p>
+          <div class="memory-container" id="memoryContainer">
+            <div class="empty-state">No past projects dissolved yet. Retained records will appear here upon Human acceptance.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Model Switch Modal -->
+  <div class="modal-overlay hidden" id="modelModal">
+    <div class="modal-box">
+      <h3>Select Global Company Model</h3>
+      <p class="modal-desc">Section 2 & 29: Updating the global model immediately propagates to all agents in the company.</p>
+      <div class="form-group">
+        <label for="modelSelect">Available Models:</label>
+        <select id="modelSelect">
+          <option value="gemini-2.5-flash">Gemini 2.5 Flash (Recommended - Ultra Fast)</option>
+          <option value="gemini-2.5-pro">Gemini 2.5 Pro (Deep Reasoning)</option>
+          <option value="gemini-3.8-flash">Gemini 3.8 Flash</option>
+          <option value="nemotron-3-ultra">Nemotron 3 Ultra</option>
+        </select>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" onclick="closeModelModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="confirmModelSwitch()">Apply Globally</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
