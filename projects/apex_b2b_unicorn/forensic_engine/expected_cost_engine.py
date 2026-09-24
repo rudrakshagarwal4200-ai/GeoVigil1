@@ -115,7 +115,7 @@ class ExpectedCostEngine:
         - Split duplicates (multiple smaller invoices combining to charge the same shipment)
         """
         vendor = invoice.get("vendor", "")
-        inv_no = invoice.get("invoice_number", "")
+        inv_no = invoice.get("re_billed_ref", invoice.get("invoice_number", ""))
         container = invoice.get("container_id", "")
         amt = float(invoice.get("amount", 0.0))
         date_str = invoice.get("date", "")
@@ -124,12 +124,13 @@ class ExpectedCostEngine:
         exact_key = f"{vendor}:{inv_no}".upper()
         if exact_key in self.seen_fingerprints["exact"]:
             prior = self.seen_fingerprints["exact"][exact_key]
-            return {
-                "duplicate_type": "EXACT_DUPLICATE",
-                "severity": "CRITICAL",
-                "prior_tx": prior,
-                "detail": f"Invoice {inv_no} from {vendor} was already recorded/paid on {prior.get('date')}."
-            }
+            if prior.get("invoice_number") != invoice.get("invoice_number"):
+                return {
+                    "duplicate_type": "EXACT_DUPLICATE",
+                    "severity": "CRITICAL",
+                    "prior_tx": prior,
+                    "detail": f"Invoice {inv_no} from {vendor} was already recorded/paid on {prior.get('date')}."
+                }
 
         # 2. Semantic & Temporal Duplicate on Container
         if container:
