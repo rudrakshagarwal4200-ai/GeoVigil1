@@ -34,28 +34,25 @@
 
 ## ACT II: The Ruthless Interrogation & Business Model Mutations
 
-### Interrogation 1: The "Chai with the Promoter" Objection
+### Interrogation 1: The "Chai with the Promoter" Objection & The Global Inversion
 **Aman Gupta**:
-> *"Bhai, stop giving me Silicon Valley jargon. You are telling me you are selling ₹40 Lakh annual contracts to Indian business promoters in Surat, Ludhiana, and Mumbai without a single sales guy? Indian enterprise promoters don't buy from an AI chatbot on the phone. They want to sit, drink chai, negotiate a 30% discount, and look into the founder's eyes. How on earth did an AI close ₹28 Crores without human sales reps?"*
+> *"Bhai, stop giving me Silicon Valley jargon. You are telling me you are selling ₹60 Lakh annual contracts to Indian business promoters in Surat, Ludhiana, and Mumbai without a single sales guy? Indian enterprise promoters don't buy from an AI over the phone. They want to sit, drink chai, negotiate a 30% discount, and look into the founder's eyes. How on earth did an AI close ₹30 Crores without human sales reps?"*
 
-**The Idea Thinker's First Answer**:
-> *"We use hyper-realistic Voice AI agents that make outbound calls..."*
+**Founder**:
+> *"Aman, you are 100% right about domestic Indian promoters—and that is precisely why **we deliberately avoided India in our first two years!**  
+> Instead of burning time in slow, price-sensitive domestic sales cycles, we took an **aggressive international-first approach**: we targeted the **United Arab Emirates (Dubai, Abu Dhabi) and the United States**.  
+> In Dubai, the UAE government just enacted a mandatory **9% Federal Corporate Tax and Peppol e-invoicing laws** on over 300,000 businesses that had zero tax infrastructure. They were in pure panic mode.  
+> In the US, mid-market logistics and manufacturing enterprises pay **$60,000 to $120,000 USD** per year via DocuSign in under 7 days without ever asking for a physical meeting.  
+> We generated **$3.6 Million USD (₹30 Crores)** in 100% foreign exchange profit from the UAE and US before touching India. And now that we have global credibility, Indian enterprises are knocking on our door inbound!"*
 
-**Aman Gupta cuts in**:
-> *"Absolute rubbish! If an AI voice calls an Indian CFO, they will disconnect in 5 seconds. I don't buy this. If you cannot explain how you actually get them to sign without humans, this is a fake narrative or a fluke. I am out if this is just cold-calling spam."*
+**Aman Gupta**:
+> *"Wait, so your entire ₹30 Crores is in US Dollars and UAE Dirhams from foreign clients? With zero physical offices in Dubai or New York?"*
 
-#### 🚨 THE FLAW UNCOVERED & BUSINESS MODEL MUTATION #1
-- **The Problem Identified**: Cold outreach via AI voice to conservative Indian CFOs has high friction and low trust.
-- **The Business Model Mutation**:
-  Instead of cold outbound, DOOM & The Thinker Swarm pivoted the acquisition engine to:
-  **"The Autonomous Forensic Audit Trojan Horse"**:
-  1. Our autonomous scraper agents ingest public GST filings, court disputes, and vendor supply chain reports of target mid-market companies.
-  2. The AI identifies an exact, quantifiable financial leak (e.g. *"Dear CFO, your vendor XYZ overbilled you ₹18.4 Lakhs in uncredited input GST across Q2; here is the cryptographic proof"*).
-  3. We deliver this **Free Audit Report** directly to the CFO's verified email and WhatsApp.
-  4. We offer a **"Zero-Risk, 100% Contingent Pilot"**: We run our Autonomous Reconciliation Department for 30 days for free. If we don't save them at least ₹20 Lakhs, they pay ₹0. Once the CFO sees actual cash recovered in their bank account within 14 days, the contract converts automatically with zero sales friction!
+**Founder**:
+> *"Exactly. Our autonomous scrapers analyzed public UAE trade registries and US SEC/import filings, uncovered exact financial and tax leaks, and sent them free 'Forensic Audit Dossiers'. When a Dubai CFO saw that our AI caught 180,000 AED in missed VAT credits, they signed our contingent pilot immediately. We collected our fees via Stripe in USD and AED."*
 
 **Aman Gupta's Reaction**:
-> *"Aha! You don't sell software; you show them missing money in their own account and ask for a cut! Now that makes business sense. That is brilliant."*
+> *"Bhai, waah! That is the smartest pivot I have ever heard. Selling to high-paying international clients from day one and bringing pure USD cashflow into India. You completely bypassed the domestic promoter bottleneck. Outstanding."*
 
 ---
 

@@ -8,58 +8,60 @@
 
 ---
 
-## 1. Product Lines & Synthetic Departments
+## 1. Product Lines & Synthetic Departments (UAE & US Calibrated)
 
-### Division 1: OmniReconcile (Autonomous Supply Chain & Vendor Finance)
-- **Problem**: Large enterprises lose 1.5% - 3.8% of annual revenue to vendor overbilling, missed GST input tax credits, duplicate invoicing, and delayed reconciliations.
+### Division 1: OmniReconcile (Autonomous US/UAE B2B Supply Chain & AP/AR)
+- **Problem**: US & UAE enterprises lose 2% - 4% of EBITDA to vendor overbilling, rogue spend, mismatched shipping manifests, and manual invoice processing costs ($12 - $22 per invoice processed manually by human accounts payable teams).
 - **Autonomous Solution**:
-  - Automatically matches Purchase Orders (POs), Goods Receipt Notes (GRNs), Invoices, and GST E-Way Bills in real-time.
-  - Automatically disputes discrepancies with supplier billing portals via automated conversational email/API protocols.
-  - Approves clean invoices and pre-populates bank payment batches.
-- **Contract Value**: ₹35 Lakhs to ₹75 Lakhs ($42K - $90K) / year per enterprise.
+  - Direct read-only connectors to **Oracle NetSuite, QuickBooks Enterprise, Workday, SAP S/4HANA Cloud, and Bill.com**.
+  - Autonomous 3-way matching across POs, Bills of Lading, and Invoices in real-time.
+  - US: Automated 1099/W-9 vendor tax compliance and multi-state sales tax nexus tracking.
+  - UAE: Full compliance with the UAE Federal Tax Authority (FTA), 5% VAT reconciliation, and mandatory **Peppol e-Invoicing format**.
+- **Contract Value**: **$60,000 to $120,000 USD (220,000 to 450,000 AED)** / year.
 
-### Division 2: OmniComply (Autonomous Statutory & Regulatory Audit)
-- **Problem**: Constantly shifting GST regulations, MCA compliance deadlines, TDS deductions, and labor laws create massive compliance fines and legal exposure.
+### Division 2: OmniComply (Autonomous Corporate Tax & Statutory Audit)
+- **Problem**: 
+  - **UAE Crisis**: The implementation of the **9% Federal Corporate Tax** and mandatory electronic invoicing has caught 300,000+ businesses in Dubai, Abu Dhabi, and Free Zones (DMCC, DIFC, JAFZA) completely unprepared without dedicated compliance infrastructure.
+  - **US Complexity**: Federal corporate taxes, state franchise taxes, and SOC2/SOX compliance reporting costs hundreds of thousands of dollars in external CPA fees.
 - **Autonomous Solution**:
-  - Continuous 24/7 scanning of company transactions against real-time Indian and global regulatory rulebooks.
-  - Prepares, validates, and files monthly/quarterly statutory returns with zero human accountants.
-  - Alerts CFO within 30 seconds if any operational contract violates new statutes.
-- **Contract Value**: ₹25 Lakhs to ₹50 Lakhs ($30K - $60K) / year.
+  - Continuous 24/7 autonomous reconciliation against UAE FTA guidelines and US GAAP/IRS regulations.
+  - Auto-files tax returns, flags non-deductible expenses, and generates complete audit trails with zero human accountants.
+- **Contract Value**: **$50,000 to $90,000 USD (180,000 to 330,000 AED)** / year.
 
 ### Division 3: OmniContract (Autonomous B2B Procurement & Contract Execution)
-- **Problem**: Enterprise sales and procurement contract negotiation takes 6 to 14 weeks of expensive legal review and back-and-forth redlining.
+- **Problem**: US enterprise MSA (Master Services Agreement) review costs $800 - $1,500/hour in external legal counsel, delaying B2B deals by 3 to 6 weeks.
 - **Autonomous Solution**:
-  - Ingests incoming vendor contracts, redlines unfavorable clauses (indemnity, SLA, liability limits), and suggests optimized compromise terms in 90 seconds.
-  - Negotiates directly with counterparty AI or legal teams via secure cryptographic portals.
-- **Contract Value**: ₹40 Lakhs to ₹80 Lakhs ($48K - $96K) / year.
+  - Ingests incoming vendor contracts under US Delaware / California commercial law or UAE DIFC / ADGM common law.
+  - Automatically redlines liability caps, payment terms, and IP assignment clauses in 90 seconds.
+- **Contract Value**: **$70,000 to $150,000 USD** / year.
 
 ---
 
-## 2. Customer Acquisition Engine: The Trojan Horse Funnel
+## 2. Customer Acquisition Engine: The US & UAE Infiltration Funnel
 
 ```
 ┌────────────────────────────────────────────────────────┐
-│ 1. AUTONOMOUS RADAR SCRAPING                           │
-│ Scraping MCA filings, GST dispute registers, import    │
-│ customs databases, and corporate balance sheets.       │
+│ 1. AUTONOMOUS TARGET RECONNAISSANCE                    │
+│ Scraping UAE DED / DMCC / JAFZA commercial registries  │
+│ and US SEC EDGAR / ThomasNet / Crunchbase databases.   │
 └──────────────────────────┬─────────────────────────────┘
                            │
 ┌──────────────────────────▼─────────────────────────────┐
 │ 2. THE PROPRIETARY FORENSIC AUDIT (FREE)               │
-│ Algorithm uncovers exact financial leaks (e.g. ₹22L    │
-│ in missed tax credits) and auto-generates a dossier.   │
+│ Uncovers exact AP discrepancies or UAE corporate tax   │
+│ exposures, auto-generating a C-Suite executive dossier.│
 └──────────────────────────┬─────────────────────────────┘
                            │
 ┌──────────────────────────▼─────────────────────────────┐
-│ 3. CFO ENGAGEMENT & CONTINGENT PILOT                   │
+│ 3. CFO ENGAGEMENT & CONTINGENT 30-DAY PILOT            │
 │ "We run for 30 days for free. If we recover missing    │
 │ capital, we keep 25% of recovered savings."           │
 └──────────────────────────┬─────────────────────────────┘
                            │
 ┌──────────────────────────▼─────────────────────────────┐
-│ 4. AUTOMATIC ANNUAL CONTRACT CONVERSION                │
-│ Enterprise signs full ₹50L/year retainer to prevent    │
-│ future operational leaks. Churn is virtually zero.     │
+│ 4. AUTOMATIC ANNUAL CONTRACT CONVERSION (USD / AED)    │
+│ Enterprise signs standard annual retainer ($60K-$120K) │
+│ via DocuSign/Stripe with near-zero sales friction.     │
 └────────────────────────────────────────────────────────┘
 ```
 

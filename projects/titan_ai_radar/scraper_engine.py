@@ -118,8 +118,28 @@ class GlobalAICompanyAnalyzer:
                 "core_offering": "Generates 'Settlement Demand Packages' for personal injury attorneys by analyzing medical records and police reports.",
                 "pricing_model": "Per-demand package fee ($300 - $800 per document) or monthly unlimited subscription.",
                 "gtm_strategy": "Targeting law firms with a clear ROI calculation: 'Our documents help you settle cases for 30% higher payout in half the time.'",
-                "moat": " proprietary dataset of over 250,000 historical personal injury settlements across 50 states.",
-                "actionable_takeaway_for_irl": "Vertical hyper-focus on high-dollar financial outcomes. For our company, focus on high-leakage sectors: manufacturing supply chain, logistics, and pharma billing."
+                "moat": "Proprietary dataset of over 250,000 historical personal injury settlements across 50 states.",
+                "actionable_takeaway_for_irl": "Vertical hyper-focus on high-dollar financial outcomes: automotive supply chain, logistics, and pharma billing."
+            },
+            {
+                "company_name": "Vic.ai (US Autonomous Enterprise AP)",
+                "category": "Autonomous Invoice & Accounting Intelligence",
+                "valuation_arr": "$400M Valuation / ~$30M ARR",
+                "core_offering": "Pioneering autonomous invoice processing that extracts, classifies, and matches invoices without templates or human rules.",
+                "pricing_model": "Per-invoice volume pricing ($1.50 - $4.00 per processed invoice) + enterprise tier base fee.",
+                "gtm_strategy": "Partnering with top enterprise accounting firms (KPMG, BDO) and targeting CFOs of mid-market US healthcare and real estate firms.",
+                "moat": "Autonomous 3-way matching algorithms trained on over 100M historical commercial invoices.",
+                "actionable_takeaway_for_irl": "Adopt per-transaction volume pricing for high-volume US clients while maintaining fixed minimum retainers ($50K-$100K ACV)."
+            },
+            {
+                "company_name": "UAE Corporate Tax & Free Zone Ecosystem (DMCC, DIFC, JAFZA)",
+                "category": "Sovereign GCC B2B Compliance & E-Invoicing",
+                "valuation_arr": "Market TAM: $2.4B Regional Enterprise Spend",
+                "core_offering": "Automated e-invoicing and corporate tax reconciliation tailored to UAE FTA guidelines and Peppol standards.",
+                "pricing_model": "Annual subscription: 180,000 to 450,000 AED ($50K - $120K USD) per enterprise.",
+                "gtm_strategy": "Direct scraping of Dubai DED and DMCC trade registers to identify trading houses with over 50M AED turnover facing statutory tax audit deadlines.",
+                "moat": "Proprietary adapters for UAE FTA tax schemas and bilingual Arabic/English commercial contract verification.",
+                "actionable_takeaway_for_irl": "Target Dubai and Abu Dhabi trading conglomerates first. The statutory panic created by the new 9% corporate tax eliminates all sales friction."
             }
         ]
 
