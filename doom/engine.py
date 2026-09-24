@@ -68,12 +68,6 @@ class DOOM:
         """
         project_id = f"PRJ-{uuid.uuid4().hex[:8].upper()}"
 
-        # Calculate staffing adhering strictly to rules
-        staffing = StaffingCalculator.calculate(
-            explicit_count=explicit_agent_count,
-            complexity_score=complexity_score
-        )
-
         # Safely resolve objective text from council decision
         objective_text = (
             getattr(council_decision, "operational_specification", None)
@@ -81,7 +75,20 @@ class DOOM:
             or project_name
         )
 
-        # Generate specialized website agency blueprint
+        # Detect cognitive focus (Rule 27: Cognitive Role Elasticity)
+        is_thinker_focused = any(w in objective_text.lower() for w in [
+            "idea", "think", "ideat", "brainstorm", "concept", "philosophy", "strategy", "vision", "innovat", "hypothes"
+        ])
+        focus = "PURE_THINKER" if is_thinker_focused else "HYBRID"
+
+        # Calculate staffing adhering strictly to rules
+        staffing = StaffingCalculator.calculate(
+            explicit_count=explicit_agent_count,
+            complexity_score=complexity_score,
+            archetype_focus=focus
+        )
+
+        # Generate specialized website agency & cognitive blueprint
         blueprint = DOOMArchitecturalBrain.synthesize_blueprint(
             project_name=project_name,
             objective_text=objective_text,

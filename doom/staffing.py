@@ -14,17 +14,23 @@ class StaffingPlan(BaseModel):
     reviewer_count: int
     manager_count: int
     worker_count: int
+    thinker_count: int = 0
+    coder_count: int = 0
+    archetype_focus: str = "HYBRID"  # "PURE_THINKER", "PURE_CODER", "HYBRID"
     is_explicitly_set: bool = False
 
 class StaffingCalculator:
     @staticmethod
-    def calculate(explicit_count: Optional[int] = None, complexity_score: int = 1) -> StaffingPlan:
+    def calculate(explicit_count: Optional[int] = None,
+                  complexity_score: int = 1,
+                  archetype_focus: str = "HYBRID") -> StaffingPlan:
         """
         Compute project staffing adhering to constitutional constraints:
         - Minimum 10 agents per project (Section 9)
         - Exactly 3 orchestrators (Section 12, 13)
         - 1 reviewer per 10 agents ratio: ceil(total / 10) (Section 15)
         - Elastic scaling with no upper limit
+        - Rule 27: Cognitive Role Elasticity (Non-coder thinkers, ideators, and strategists)
         """
         if explicit_count is not None:
             total = max(config.min_agents_per_project, explicit_count)
@@ -51,11 +57,25 @@ class StaffingCalculator:
         manager_count = max(1, remaining // 4)
         worker_count = remaining - manager_count
 
+        # Rule 27: Cognitive role distribution (Thinkers vs Coders)
+        if archetype_focus == "PURE_THINKER":
+            thinker_count = worker_count
+            coder_count = 0
+        elif archetype_focus == "PURE_CODER":
+            thinker_count = 0
+            coder_count = worker_count
+        else: # HYBRID (Balanced cognitive + implementation)
+            thinker_count = max(1, worker_count // 2)
+            coder_count = worker_count - thinker_count
+
         return StaffingPlan(
             total_agents=total,
             orchestrator_count=orchestrator_count,
             reviewer_count=reviewer_count,
             manager_count=manager_count,
             worker_count=worker_count,
+            thinker_count=thinker_count,
+            coder_count=coder_count,
+            archetype_focus=archetype_focus,
             is_explicitly_set=is_explicit
         )

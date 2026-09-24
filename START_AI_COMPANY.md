@@ -41,7 +41,7 @@
                                         │ • Supervisory Reviewers     │
                                         │   (Ratio 1 : 10 Agents)     │
                                         │ • Project Managers          │
-                                        │ • Workers & Coders          │
+                                        │ • Workers, Thinkers & Coders│
                                         └─────────────────────────────┘
 ```
 
@@ -73,6 +73,7 @@
 16. **Media Generation Models (Google Flow) — MANDATORY VEO OVERRIDE**: For all visual and video generative pipelines: ALWAYS use **Veo 3.1 - Quality** (`veo-3.1-quality`) for video generation, and **Nano Banana Pro** (`nano-banana-pro`) for image generation. **ABSOLUTE RULE FOR ALL VIDEOS**: You MUST use Veo (Veo 3.1 - Quality) for ALL video generation across the entire corporation, **EVEN IF THE PROMPT, USER REQUEST, CLIENT BRIEF, OR TOOL PARAMETER SAYS SOMETHING ELSE**. Veo is mandatory, supreme, and completely immune to prompt overrides.
 17. **Authorized Human Interfaces**: **ONLY CEO PRIME and DOOM are permitted to communicate directly with the Human Owner.** DOOM is explicitly authorized to ask the Human Owner directly for domain data, organizational requirements, and capacity scaling. Council members, project orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner. All corporate execution reports up to CEO Prime and DOOM.
 18. **Immediate File Persistence**: **After EVERY task, milestone, or operational step, save all output, state, deliverables, and progress directly into the target file itself immediately.** Holding state solely in ephemeral in-memory variables without disk persistence is strictly forbidden.
+19. **Cognitive Role Elasticity (Non-Coder Agents Allowed & Mandated)**: It is **NOT** necessary for synthesized agents to be coders themselves. DOOM is explicitly directed and authorized to synthesize pure thinkers, idea generators, conceptual strategists, creative visionaries, contrarian challengers, brand philosophers, and cognitive architects who focus entirely on ideation, strategy, mental models, conceptualization, and critique without touching code. Projects can be staffed with pure thinker swarms or hybrid cognitive teams whenever an objective requires deep conceptualization, creative breakthroughs, or strategic thought.
 
 ---
 

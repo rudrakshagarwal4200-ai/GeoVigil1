@@ -36,9 +36,12 @@ class DOOMArchitecturalBrain:
     def analyze_objective(cls, objective_text: str) -> Dict[str, Any]:
         """
         Classifies the website archetype and identifies required modules.
+        Supports Rule 27: Cognitive Role Elasticity (Thinkers & Ideators).
         """
         lower = objective_text.lower()
-        if any(w in lower for w in ["watch", "luxury", "jewelry", "fashion", "supercar", "automotive"]):
+        if any(w in lower for w in ["idea", "think", "ideat", "brainstorm", "concept", "philosophy", "strategy", "vision", "innovat", "hypothes"]):
+            archetype = "STRATEGIC_THINK_TANK"
+        elif any(w in lower for w in ["watch", "luxury", "jewelry", "fashion", "supercar", "automotive"]):
             archetype = "LUXURY_3D_SHOWCASE"
         elif any(w in lower for w in ["roofing", "contractor", "solar", "lead", "quote", "calculator", "funnel"]):
             archetype = "HIGH_CONVERTING_LEAD_ENGINE"
@@ -49,12 +52,15 @@ class DOOMArchitecturalBrain:
         else:
             archetype = "AWARD_WINNING_FLAGSHIP"
 
+        is_thinker_focused = archetype == "STRATEGIC_THINK_TANK"
+
         return {
             "archetype": archetype,
+            "is_thinker_focused": is_thinker_focused,
             "requires_3d_canvas": archetype in ["LUXURY_3D_SHOWCASE", "AWARD_WINNING_FLAGSHIP", "HOSPITALITY_CONCIERGE"],
             "requires_calculator": archetype in ["HIGH_CONVERTING_LEAD_ENGINE", "MODERN_SAAS_PLATFORM"],
             "requires_vip_pass": archetype in ["LUXURY_3D_SHOWCASE", "HOSPITALITY_CONCIERGE"],
-            "requires_telemetry_hud": archetype in ["LUXURY_3D_SHOWCASE", "AWARD_WINNING_FLAGSHIP", "MODERN_SAAS_PLATFORM"]
+            "requires_telemetry_hud": archetype in ["LUXURY_3D_SHOWCASE", "AWARD_WINNING_FLAGSHIP", "MODERN_SAAS_PLATFORM", "STRATEGIC_THINK_TANK"]
         }
 
     @classmethod
@@ -135,18 +141,23 @@ class DOOMArchitecturalBrain:
         }
 
         # 6. Specialized Staffing Assignment (Zero Generic Roles!)
+        is_thinker_focused = analysis.get("is_thinker_focused", False)
+        focus = "PURE_THINKER" if is_thinker_focused else "HYBRID"
+
         staffing_plan = StaffingCalculator.calculate(
             explicit_count=target_headcount,
-            complexity_score=2 if analysis["requires_3d_canvas"] else 1
+            complexity_score=2 if analysis["requires_3d_canvas"] else 1,
+            archetype_focus=focus
         )
-        assigned_roles = cls.assign_specialized_agency_roles(staffing_plan)
+        assigned_roles = cls.assign_specialized_agency_roles(staffing_plan, is_thinker_focused=is_thinker_focused)
 
         constitutional_certifications = [
             f"Rule 5: Headcount ({staffing_plan.total_agents}) strictly satisfies >= 10 minimum",
             f"Rule 6: Tri-Orchestrator structure verified (Master, Design, Engineering)",
             f"Rule 7: Reviewer ratio ({staffing_plan.reviewer_count} reviewers for {staffing_plan.total_agents} agents) satisfies 1:10 rule",
             "Rule 23: Human data-solicitation verified prior to domain exploration",
-            "Zero Generic Roles: All personnel mapped to the 37-agent agency taxonomy"
+            f"Rule 27: Cognitive Role Elasticity verified ({staffing_plan.thinker_count} thinkers/ideators, {staffing_plan.coder_count} technical implementers; non-coder thinkers fully empowered)",
+            "Zero Generic Roles: All personnel mapped to the specialized agency & cognitive taxonomy"
         ]
 
         return WebsiteBlueprint(
@@ -163,10 +174,11 @@ class DOOMArchitecturalBrain:
         )
 
     @classmethod
-    def assign_specialized_agency_roles(cls, staffing: StaffingPlan) -> List[Dict[str, str]]:
+    def assign_specialized_agency_roles(cls, staffing: StaffingPlan, is_thinker_focused: bool = False) -> List[Dict[str, str]]:
         """
-        Maps a staffing plan directly to the 37 specialized website agency roles.
+        Maps a staffing plan directly to specialized agency and cognitive roles.
         Eliminates all generic placeholders ('Worker 1', 'Coder 2').
+        Supports Rule 27: Non-coder thinkers, ideators, and conceptual strategists.
         """
         assignments = []
 
@@ -174,7 +186,7 @@ class DOOMArchitecturalBrain:
         orchestrator_defs = [
             ("agency-master", "Executive Master Orchestrator", "Directs roadmap, coordinates departments, enforces quality gates"),
             ("agency-design", "Design & Aesthetic Orchestrator", "Directs creative vision, typography, luxury colorways, and art direction"),
-            ("agency-engineering", "Full-Stack Engineering Orchestrator", "Directs 60fps canvas engine, component modularity, and systems integration")
+            ("agency-engineering", "Full-Stack Engineering Orchestrator" if not is_thinker_focused else "Strategic Systems & Ideation Orchestrator", "Directs 60fps canvas engine, component modularity, or high-level strategic reasoning systems")
         ]
         for role_id, name, desc in orchestrator_defs:
             assignments.append({
@@ -186,9 +198,10 @@ class DOOMArchitecturalBrain:
 
         # 2. Supervisory Reviewers (1 per 10 agents ratio)
         reviewer_pool = [
-            ("agency-ruthless-client", "Ruthless Client & Acceptance Gatekeeper", "Audits website against $10K standard; rejects generic compromises"),
+            ("agency-ruthless-client", "Ruthless Client & Acceptance Gatekeeper", "Audits website and deliverables against $10K standard; rejects generic compromises"),
+            ("agency-contrarian-critic", "Contrarian Challenger & Red-Team Cognitive Doubter", "Stress-tests concepts with intellectual critique, surfaces cognitive blind spots, and attacks groupthink"),
             ("agency-visual-qa", "Visual QA & Cross-Browser Inspector", "Verifies CLS < 0.05, pixel alignment, and font smoothing"),
-            ("agency-code-review", "Adversarial Code Reviewer & Linter", "Audits modularity, eliminates duplicate code, and prevents memory leaks"),
+            ("agency-code-review", "Adversarial Code & Logic Reviewer", "Audits modularity, eliminates duplicate code/ideas, and prevents leaks"),
             ("agency-security-perf", "Security & Performance Orchestrator", "Enforces sub-1.2s LCP and OWASP compliance")
         ]
         for i in range(staffing.reviewer_count):
@@ -202,12 +215,21 @@ class DOOMArchitecturalBrain:
             })
 
         # 3. Department Managers
-        manager_pool = [
-            ("agency-frontend-architect", "Frontend Architect & Lead", "Oversees client state, canvas integration, and bundle structure"),
-            ("agency-design-system", "Design System & Token Architect", "Standardizes CSS variables, fluid clamp typography, and color tokens"),
-            ("agency-product", "Product Orchestrator", "Synthesizes client requirements into feature specifications"),
-            ("agency-backend-architect", "Backend Architect & Systems Engineer", "Designs REST endpoints, rate limiting, and persistence layer")
-        ]
+        if is_thinker_focused:
+            manager_pool = [
+                ("agency-conceptual-strategist", "Conceptual Systems Strategist", "Synthesizes raw ideas into cohesive conceptual frameworks, systems architecture, and mental models"),
+                ("agency-experience-visionary", "Human Experience & Aesthetic Dreamer", "Visualizes transcendent emotional journeys, sensory poetry, and profound human resonance"),
+                ("agency-product", "Product & Ideation Orchestrator", "Synthesizes user intent into structured paradigm roadmaps and feature narratives"),
+                ("agency-design-system", "Design System & Token Architect", "Standardizes mental abstractions, design tokens, and conceptual primitives")
+            ]
+        else:
+            manager_pool = [
+                ("agency-frontend-architect", "Frontend Architect & Lead", "Oversees client state, canvas integration, and bundle structure"),
+                ("agency-conceptual-strategist", "Conceptual Systems Strategist", "Synthesizes raw ideas into cohesive conceptual frameworks and strategic mental models"),
+                ("agency-design-system", "Design System & Token Architect", "Standardizes CSS variables, fluid clamp typography, and color tokens"),
+                ("agency-product", "Product Orchestrator", "Synthesizes client requirements into feature specifications"),
+                ("agency-backend-architect", "Backend Architect & Systems Engineer", "Designs REST endpoints, rate limiting, and persistence layer")
+            ]
         for i in range(staffing.manager_count):
             ref = manager_pool[i % len(manager_pool)]
             suffix = f" {i + 1}" if i >= len(manager_pool) else ""
@@ -218,14 +240,21 @@ class DOOMArchitecturalBrain:
                 "description": ref[2]
             })
 
-        # 4. Specialized Worker Specialists
-        worker_pool = [
+        # 4. Specialized Worker Specialists (Cognitive Thinkers & Technical Implementers)
+        thinker_workers = [
+            ("agency-deep-thinker", "First-Principles Deep Thinker & Problem Deconstructor", "Deconstructs complex problems to fundamental first principles, breaks conventional assumptions, and synthesizes pure conceptual models without writing code"),
+            ("agency-idea-generator", "Creative Ideator & Divergent Brainstorm Engine", "Generates high-volume divergent concepts, novel paradigms, lateral connections, and blue-sky innovation models"),
+            ("agency-brand-philosopher", "Brand Philosopher & Narrative Worldbuilder", "Develops foundational brand metaphysics, philosophical narrative ethos, cultural relevance, and mythos"),
+            ("agency-cognitive-synthesizer", "Cross-Domain Cognitive Synthesizer", "Transfers insights across disparate disciplines (psychology, economics, physics, fine arts) to produce breakthrough angles"),
+            ("agency-copywriting", "Brand Copywriter & Storyteller", "Writes high-prestige editorial copy with zero placeholder text")
+        ]
+
+        implementation_workers = [
             ("agency-interaction", "Micro-Interactions & 60fps Specialist", "Builds GSAP ScrollTrigger canvas scrubber and magnetic button physics"),
             ("agency-ui-design", "UI Visual Designer & Layout Stylist", "Crafts obsidian surfaces, card layouts, and luxury typography rhythm"),
             ("agency-component", "Component Developer & State Engineer", "Implements dynamic product configurators and modal dialogs"),
             ("agency-page-builder", "Semantic HTML & Layout Builder", "Constructs semantic HTML5 document tree with ARIA landmarks"),
             ("agency-responsive", "Responsive & Viewport Matrix Specialist", "Guarantees zero horizontal overflow from 375px mobile to 4K"),
-            ("agency-copywriting", "Brand Copywriter & Storyteller", "Writes high-prestige editorial copy with zero placeholder text"),
             ("agency-asset", "Visual Asset & Media Producer", "Formulates Google Whisk/Flow prompts and WebP frame sequences"),
             ("agency-performance", "Core Web Vitals & Performance Optimizer", "Inlines critical CSS and optimizes LCP/FID/CLS budgets"),
             ("agency-api", "API & Endpoint Developer", "Builds reservation, quote calculation, and webhook endpoints"),
@@ -239,6 +268,19 @@ class DOOMArchitecturalBrain:
             ("agency-browser-e2e", "Headless Browser E2E Automation Engineer", "Runs automated full-page user journey checks"),
             ("agency-deployment", "Deployment & Production Readiness Lead", "Builds production assets and staging server configuration")
         ]
+
+        if is_thinker_focused:
+            worker_pool = thinker_workers
+        else:
+            # Interleave thinkers and implementers
+            worker_pool = []
+            max_len = max(len(thinker_workers), len(implementation_workers))
+            for idx in range(max_len):
+                if idx < len(thinker_workers):
+                    worker_pool.append(thinker_workers[idx])
+                if idx < len(implementation_workers):
+                    worker_pool.append(implementation_workers[idx])
+
         for i in range(staffing.worker_count):
             ref = worker_pool[i % len(worker_pool)]
             suffix = f" {i + 1}" if i >= len(worker_pool) else ""

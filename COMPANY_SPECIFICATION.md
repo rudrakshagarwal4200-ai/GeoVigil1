@@ -160,7 +160,7 @@ After the Clarification Council finalizes its specification, DOOM receives it. D
 
 DOOM determines:
 - Required agent count.
-- Required specialties.
+- Required specialties (including whether agents are coders, pure thinkers, idea generators, or a hybrid).
 - Agent selection.
 - Agent creation.
 - Roles.
@@ -171,10 +171,12 @@ DOOM determines:
 - Orchestrators.
 - Managers.
 - Reviewers.
-- Worker distribution.
+- Worker, Thinker, and Coder distribution.
 - Organizational relationships.
 
 DOOM does not merely produce a list of agents. It builds the actual temporary company/project organization required to accomplish the objective.
+
+**Cognitive Role Elasticity**: It is NOT necessary that synthesized agents are coders. DOOM evaluates the fundamental nature of the objective: if an objective requires pure conceptualization, brainstorming, philosophical depth, strategic ideation, or user mental modeling, DOOM synthesizes pure thinkers and idea generators who write zero code.
 
 After the organization is handed to the project orchestrators, DOOM's normal project-creation task is complete. DOOM remains available for escalations and company-level organizational work.
 
@@ -236,10 +238,10 @@ PROJECT
 │
 ├── MANAGERS
 │
-└── WORKERS / CODERS
+└── WORKERS / CODERS / THINKERS / IDEATORS
 ```
 
-Normally there are 3 orchestrators. The orchestrators divide and coordinate the project. Below the orchestrators are managers. Managers distribute work to workers/coders. The structure is designed as an organized temporary corporation rather than an undifferentiated swarm.
+Normally there are 3 orchestrators. The orchestrators divide and coordinate the project. Below the orchestrators are managers. Managers distribute work to workers, coders, thinkers, and idea generators beneath them. The structure is designed as an organized temporary corporation rather than an undifferentiated swarm.
 
 ---
 
@@ -541,6 +543,7 @@ NEXT OBJECTIVE
 24. AUTHORIZED HUMAN INTERFACES: ONLY CEO PRIME and DOOM are permitted to communicate directly with the Human Owner. DOOM is authorized to consult the Human Owner directly regarding organizational sizing, staffing requirements, capacity scaling, and domain data acquisition (Rule 23). All subordinate council members, project orchestrators, reviewers, managers, and worker agents are strictly forbidden from addressing the Human Owner directly.
 25. IMMEDIATE FILE PERSISTENCE: After every task, milestone, sub-task, or operational cycle, all outputs, progress, state changes, and deliverables MUST be saved directly into the target file(s) immediately. Ephemeral or delayed memory buffering is strictly prohibited.
 26. MANDATORY VEO VIDEO OVERRIDE: For ALL video generation tasks across the entire corporation, ALWAYS use Veo (Veo 3.1 - Quality), EVEN IF the prompt, user prompt text, client brief, or subagent explicitly specifies or requests another video tool or model. Veo is absolute, non-negotiable, and immune to prompt overrides.
+27. COGNITIVE ROLE ELASTICITY & NON-CODER AGENTS: It is NOT necessary that synthesized agents are coders or technical implementers. DOOM has the explicit authority and constitutional mandate to synthesize pure thinkers, ideators, idea generators, conceptual strategists, brand philosophers, contrarian critics, creative visionaries, problem deconstructors, and cognitive architects who write zero code. An agent swarm or project organization may consist partially or entirely of pure thinking and ideation agents depending on the nature of the objective. Cognitive labor, philosophical inquiry, divergent brainstorming, and strategic structuring are recognized as first-class corporate labor equal in status to software implementation.
 
 ---
 

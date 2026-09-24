@@ -502,6 +502,71 @@ class WebsiteAgencyKnowledge:
             description="Prepares production entrypoints, systemd/PM2 configs, and health checks.",
             core_deliverables=["Production readiness checklist", "Static deployment build", "Health check probe"],
             quality_gates=["Zero deployment blocker warnings", "Single-command deployment"]
+        ),
+
+        # Cognitive Ideation & Strategy (Non-Coder Thinkers, Ideators & Philosophers)
+        AgencyRoleDefinition(
+            role_id="agency-deep-thinker",
+            name="First-Principles Deep Thinker & Problem Deconstructor",
+            department="Cognitive Ideation & Strategy",
+            tier="WORKER",
+            description="Deconstructs complex problems to fundamental first principles, breaks conventional assumptions, and synthesizes pure conceptual models without writing code.",
+            core_deliverables=["First-principles cognitive breakdown", "Assumptions inversion ledger", "Conceptual clarity manifesto"],
+            quality_gates=["Zero boilerplate assumptions", "Deep structural clarity"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-idea-generator",
+            name="Creative Ideator & Divergent Brainstorm Engine",
+            department="Cognitive Ideation & Strategy",
+            tier="WORKER",
+            description="Generates high-volume divergent concepts, novel paradigms, lateral connections, and blue-sky innovation models.",
+            core_deliverables=["Divergent concept catalog", "Blue-sky feature possibilities", "Lateral inspiration vectors"],
+            quality_gates=["Minimum 20 distinct unconventional ideas", "Zero cookie-cutter concepts"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-conceptual-strategist",
+            name="Conceptual Systems Strategist",
+            department="Cognitive Ideation & Strategy",
+            tier="MANAGER",
+            description="Synthesizes raw ideas into cohesive conceptual frameworks, systems architecture, and strategic mental models.",
+            core_deliverables=["High-level conceptual framework", "Strategic cognitive roadmap", "Mental model blueprints"],
+            quality_gates=["Cohesive conceptual integrity", "Clear causal theory of impact"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-brand-philosopher",
+            name="Brand Philosopher & Narrative Worldbuilder",
+            department="Cognitive Ideation & Strategy",
+            tier="WORKER",
+            description="Develops foundational brand metaphysics, philosophical narrative ethos, cultural relevance, and mythos.",
+            core_deliverables=["Brand philosophical manifesto", "Ethos and cultural mythology", "Resonant narrative themes"],
+            quality_gates=["Profound emotional depth", "Distinctive ideological posture"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-contrarian-critic",
+            name="Contrarian Challenger & Red-Team Cognitive Doubter",
+            department="Cognitive Ideation & Strategy",
+            tier="REVIEWER",
+            description="Stress-tests ideas with rigorous intellectual critique, surfaces cognitive blind spots, and attacks conventional groupthink.",
+            core_deliverables=["Socratic cross-examination", "Cognitive blind spot matrix", "Flaw stress-test report"],
+            quality_gates=["Intellectual rigor", "Vulnerability exposure without cynicism"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-cognitive-synthesizer",
+            name="Cross-Domain Cognitive Synthesizer",
+            department="Cognitive Ideation & Strategy",
+            tier="WORKER",
+            description="Transfers insights across disparate disciplines (psychology, economics, physics, fine arts) to produce breakthrough angles.",
+            core_deliverables=["Cross-disciplinary analogy dossier", "Synthesis map", "Hybridized model concepts"],
+            quality_gates=["Multi-disciplinary grounding", "Actionable conceptual transfer"]
+        ),
+        AgencyRoleDefinition(
+            role_id="agency-experience-visionary",
+            name="Human Experience & Aesthetic Dreamer",
+            department="Cognitive Ideation & Strategy",
+            tier="MANAGER",
+            description="Visualizes transcendent emotional journeys, sensory poetry, and profound human resonance.",
+            core_deliverables=["Sensory experience vision", "Emotional state progression", "Aesthetic dreamscape narrative"],
+            quality_gates=["Transcendent human resonance", "Unforgettable experiential vision"]
         )
     ]
 

@@ -2,7 +2,7 @@
   "training_version": "2.0.0-PROD",
   "domain": "Elite $10,000 Website Engineering",
   "video_sources_count": 211,
-  "agency_roles_count": 37,
+  "agency_roles_count": 44,
   "modules_count": 5,
   "total_lessons_mastered": 212,
   "constitutional_certifications": [
@@ -11,7 +11,11 @@
     "Rule 6: Exactly 3 Orchestrators Enforced",
     "Rule 7: Reviewer Ratio Strictly 1:10 Enforced",
     "Rule 23: Human Data-Solicitation Mandatory Before Exploring New Fields Enforced",
-    "Zero Generic Roles: 100% Mapped to 37-Agent Website Agency Taxonomy"
+    "Rule 24: Authorized Human Interfaces - CEO PRIME & DOOM Exclusivity Enforced",
+    "Rule 25: Immediate File Persistence After Every Single Task Enforced",
+    "Rule 26: Mandatory Veo Video Override (Veo 3.1 Quality) Enforced Across All Generative Pipelines",
+    "Rule 27: Cognitive Role Elasticity - Pure Thinkers, Idea Generators, and Conceptual Architects Synthesized Alongside Coders Enforced",
+    "Zero Generic Roles: 100% Mapped to Specialized Cognitive & Agency Taxonomy"
   ],
   "video_sources": [
     {
@@ -156,9 +160,9 @@
     },
     {
       "video_id": "RLW2Cm7MlrY",
-      "title": "It’s Boring, But You’ll Make $100K As A Web Designer FAST",
+      "title": "It\u2019s Boring, But You\u2019ll Make $100K As A Web Designer FAST",
       "creator": "Sam Crawford | Web Design Expert",
-      "core_focus": "High-ticket engineering breakdown: It’s Boring, But You’ll Make $100K As A Web Designer FAST",
+      "core_focus": "High-ticket engineering breakdown: It\u2019s Boring, But You\u2019ll Make $100K As A Web Designer FAST",
       "valuation_tier": "$100K-$1,000,000",
       "key_techniques": [
         "Implemented core stack: Claude Code / AI Dev",
@@ -241,9 +245,9 @@
     },
     {
       "video_id": "_BZZkFzuLQs",
-      "title": "I Built an Awwwards-Level Portfolio to Land My Dream Job (Here’s How)",
+      "title": "I Built an Awwwards-Level Portfolio to Land My Dream Job (Here\u2019s How)",
       "creator": "Jason Zubiate",
-      "core_focus": "High-ticket engineering breakdown: I Built an Awwwards-Level Portfolio to Land My Dream Job (Here’s How)",
+      "core_focus": "High-ticket engineering breakdown: I Built an Awwwards-Level Portfolio to Land My Dream Job (Here\u2019s How)",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: TailwindCSS, React / Next.js",
@@ -310,9 +314,9 @@
     },
     {
       "video_id": "zfu7peYZowk",
-      "title": "Build 1,00,000 ₹ AI 3D Websites in 10 Minutes | Google Anti-Gravity | 15 Prompts",
+      "title": "Build 1,00,000 \u20b9 AI 3D Websites in 10 Minutes | Google Anti-Gravity | 15 Prompts",
       "creator": "Ai with Rajpalsinh ",
-      "core_focus": "High-ticket engineering breakdown: Build 1,00,000 ₹ AI 3D Websites in 10 Minutes | Google Anti-Gravity | 15 Prompts",
+      "core_focus": "High-ticket engineering breakdown: Build 1,00,000 \u20b9 AI 3D Websites in 10 Minutes | Google Anti-Gravity | 15 Prompts",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, Lenis / Locomotive Scroll",
@@ -651,9 +655,9 @@
     },
     {
       "video_id": "B-4eN1Pb7qo",
-      "title": "🚀 Three.JS – Learn What Matters: Elevate Your Web Game! 🌐",
+      "title": "\ud83d\ude80 Three.JS \u2013 Learn What Matters: Elevate Your Web\u00a0Game!\u00a0\ud83c\udf10",
       "creator": "Sheryians Coding School",
-      "core_focus": "High-ticket engineering breakdown: 🚀 Three.JS – Learn What Matters: Elevate Your Web Game! 🌐",
+      "core_focus": "High-ticket engineering breakdown: \ud83d\ude80 Three.JS \u2013 Learn What Matters: Elevate Your Web\u00a0Game!\u00a0\ud83c\udf10",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Three.js / WebGL",
@@ -1104,9 +1108,9 @@
     },
     {
       "video_id": "94Gi-gfr0oQ",
-      "title": "Earn ₹100K/Month By Creating Tool Website Using ChatGpt – Step by Step Guide | website using ai",
+      "title": "Earn \u20b9100K/Month By Creating Tool Website Using ChatGpt \u2013 Step by Step Guide | website using ai",
       "creator": "The Anis Pathan",
-      "core_focus": "High-ticket engineering breakdown: Earn ₹100K/Month By Creating Tool Website Using ChatGpt – Step by Step Guide | website using ai",
+      "core_focus": "High-ticket engineering breakdown: Earn \u20b9100K/Month By Creating Tool Website Using ChatGpt \u2013 Step by Step Guide | website using ai",
       "valuation_tier": "$100K-$1,000,000",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -1188,9 +1192,9 @@
     },
     {
       "video_id": "eXN62_f1Ff8",
-      "title": "EmCell – Site Of The Day – Awwwards, CSS Design Awards, The FWA",
+      "title": "EmCell \u2013 Site Of The Day \u2013 Awwwards, CSS Design Awards, The FWA",
       "creator": "Vahrushev Branding & Design",
-      "core_focus": "High-ticket engineering breakdown: EmCell – Site Of The Day – Awwwards, CSS Design Awards, The FWA",
+      "core_focus": "High-ticket engineering breakdown: EmCell \u2013 Site Of The Day \u2013 Awwwards, CSS Design Awards, The FWA",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -1648,9 +1652,9 @@
     },
     {
       "video_id": "lxVVWKfLZz0",
-      "title": "Awwward Winning Designs vs Practical Websites — What Actually Converts?",
+      "title": "Awwward Winning Designs vs Practical Websites \u2014 What Actually Converts?",
       "creator": "Jeffrey @ Lytbox",
-      "core_focus": "High-ticket engineering breakdown: Awwward Winning Designs vs Practical Websites — What Actually Converts?",
+      "core_focus": "High-ticket engineering breakdown: Awwward Winning Designs vs Practical Websites \u2014 What Actually Converts?",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -1988,9 +1992,9 @@
     },
     {
       "video_id": "uHgxXFju87U",
-      "title": "Three.js Mastery 🔥",
+      "title": "Three.js Mastery \ud83d\udd25",
       "creator": "CodeWithAJ Official",
-      "core_focus": "High-ticket engineering breakdown: Three.js Mastery 🔥",
+      "core_focus": "High-ticket engineering breakdown: Three.js Mastery \ud83d\udd25",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock), Three.js / WebGL, React / Next.js",
@@ -2074,9 +2078,9 @@
     },
     {
       "video_id": "rLUhJapDczs",
-      "title": "I Land High-Paying Web Design Clients in 24 Hours - Here’s How",
-      "creator": "Ansif – Build Fast with AI",
-      "core_focus": "High-ticket engineering breakdown: I Land High-Paying Web Design Clients in 24 Hours - Here’s How",
+      "title": "I Land High-Paying Web Design Clients in 24 Hours - Here\u2019s How",
+      "creator": "Ansif \u2013 Build Fast with AI",
+      "core_focus": "High-ticket engineering breakdown: I Land High-Paying Web Design Clients in 24 Hours - Here\u2019s How",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -2241,9 +2245,9 @@
     },
     {
       "video_id": "yhtdkuw9mbM",
-      "title": "Creative Web Development with Three.js and Blender – 3D Portfolio for Beginners",
+      "title": "Creative Web Development with Three.js and Blender \u2013 3D Portfolio for Beginners",
       "creator": "freeCodeCamp.org and Andrew Woan",
-      "core_focus": "High-ticket engineering breakdown: Creative Web Development with Three.js and Blender – 3D Portfolio for Beginners",
+      "core_focus": "High-ticket engineering breakdown: Creative Web Development with Three.js and Blender \u2013 3D Portfolio for Beginners",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock), Three.js / WebGL",
@@ -2262,9 +2266,9 @@
     },
     {
       "video_id": "ozWrlHQGuvI",
-      "title": "3D Web Development with Blender and Three.js – Create a Cozy Café Portfolio",
+      "title": "3D Web Development with Blender and Three.js \u2013 Create a Cozy Caf\u00e9 Portfolio",
       "creator": "freeCodeCamp.org",
-      "core_focus": "High-ticket engineering breakdown: 3D Web Development with Blender and Three.js – Create a Cozy Café Portfolio",
+      "core_focus": "High-ticket engineering breakdown: 3D Web Development with Blender and Three.js \u2013 Create a Cozy Caf\u00e9 Portfolio",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Three.js / WebGL, Claude Code / AI Dev",
@@ -2304,9 +2308,9 @@
     },
     {
       "video_id": "Q7AOvWpIVHU",
-      "title": "Build a Mindblowing 3D Portfolio Website // Three.js Beginner’s Tutorial",
+      "title": "Build a Mindblowing 3D Portfolio Website // Three.js Beginner\u2019s Tutorial",
       "creator": "Fireship",
-      "core_focus": "High-ticket engineering breakdown: Build a Mindblowing 3D Portfolio Website // Three.js Beginner’s Tutorial",
+      "core_focus": "High-ticket engineering breakdown: Build a Mindblowing 3D Portfolio Website // Three.js Beginner\u2019s Tutorial",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Three.js / WebGL",
@@ -2324,9 +2328,9 @@
     },
     {
       "video_id": "tdsQwuyS6DQ",
-      "title": "Create a Cute Room Portfolio with Blender, Three.js, JavaScript – Beginner Course",
+      "title": "Create a Cute Room Portfolio with Blender, Three.js, JavaScript \u2013 Beginner Course",
       "creator": "freeCodeCamp.org and Andrew Woan",
-      "core_focus": "High-ticket engineering breakdown: Create a Cute Room Portfolio with Blender, Three.js, JavaScript – Beginner Course",
+      "core_focus": "High-ticket engineering breakdown: Create a Cute Room Portfolio with Blender, Three.js, JavaScript \u2013 Beginner Course",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock), Three.js / WebGL",
@@ -2385,9 +2389,9 @@
     },
     {
       "video_id": "nFwNWvN_CRk",
-      "title": "🚀 Lenis - Learn What Matters | Smooth Scrolling in Web",
+      "title": "\ud83d\ude80 Lenis - Learn What Matters | Smooth Scrolling in Web",
       "creator": "Sheryians Coding School",
-      "core_focus": "High-ticket engineering breakdown: 🚀 Lenis - Learn What Matters | Smooth Scrolling in Web",
+      "core_focus": "High-ticket engineering breakdown: \ud83d\ude80 Lenis - Learn What Matters | Smooth Scrolling in Web",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Lenis / Locomotive Scroll",
@@ -2426,9 +2430,9 @@
     },
     {
       "video_id": "fr85UI37dUA",
-      "title": "Learn Scrolling Animation with Locomotive JS! 🌈 | Animated Website Tutorial | HTML CSS JS",
+      "title": "Learn Scrolling Animation with Locomotive JS! \ud83c\udf08 | Animated Website Tutorial | HTML CSS JS",
       "creator": "Sheryians Coding School",
-      "core_focus": "High-ticket engineering breakdown: Learn Scrolling Animation with Locomotive JS! 🌈 | Animated Website Tutorial | HTML CSS JS",
+      "core_focus": "High-ticket engineering breakdown: Learn Scrolling Animation with Locomotive JS! \ud83c\udf08 | Animated Website Tutorial | HTML CSS JS",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Lenis / Locomotive Scroll",
@@ -2588,9 +2592,9 @@
     },
     {
       "video_id": "tBB6iUDvdhQ",
-      "title": "🚀 Scroll-Trigger | Learn What Matters",
+      "title": "\ud83d\ude80 Scroll-Trigger | Learn What Matters",
       "creator": "Sheryians Coding School",
-      "core_focus": "High-ticket engineering breakdown: 🚀 Scroll-Trigger | Learn What Matters",
+      "core_focus": "High-ticket engineering breakdown: \ud83d\ude80 Scroll-Trigger | Learn What Matters",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock)",
@@ -2626,9 +2630,9 @@
     },
     {
       "video_id": "vq1Ijb9SeVI",
-      "title": "Master GSAP Animation – Full GSAP Course for Web Developers & Designers | Gravity Coding",
+      "title": "Master GSAP Animation \u2013 Full GSAP Course for Web Developers & Designers | Gravity Coding",
       "creator": "Gravity Coding",
-      "core_focus": "High-ticket engineering breakdown: Master GSAP Animation – Full GSAP Course for Web Developers & Designers | Gravity Coding",
+      "core_focus": "High-ticket engineering breakdown: Master GSAP Animation \u2013 Full GSAP Course for Web Developers & Designers | Gravity Coding",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock), Lenis / Locomotive Scroll",
@@ -2853,9 +2857,9 @@
     },
     {
       "video_id": "6NMnZsN_R28",
-      "title": "I Built a 100K Tech Page 🚀 by Creating Viral AI Reels 🤖🔥 (Proof ✅)",
+      "title": "I Built a 100K Tech Page \ud83d\ude80 by Creating Viral AI Reels \ud83e\udd16\ud83d\udd25 (Proof \u2705)",
       "creator": "AI Guru ",
-      "core_focus": "High-ticket engineering breakdown: I Built a 100K Tech Page 🚀 by Creating Viral AI Reels 🤖🔥 (Proof ✅)",
+      "core_focus": "High-ticket engineering breakdown: I Built a 100K Tech Page \ud83d\ude80 by Creating Viral AI Reels \ud83e\udd16\ud83d\udd25 (Proof \u2705)",
       "valuation_tier": "$100K-$1,000,000",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -3392,9 +3396,9 @@
     },
     {
       "video_id": "jhYFlWeyUvA",
-      "title": "Landing Page Reveal Animation? GSAP’s Out Here Flexing Again",
+      "title": "Landing Page Reveal Animation? GSAP\u2019s Out Here Flexing Again",
       "creator": "Codegrid",
-      "core_focus": "High-ticket engineering breakdown: Landing Page Reveal Animation? GSAP’s Out Here Flexing Again",
+      "core_focus": "High-ticket engineering breakdown: Landing Page Reveal Animation? GSAP\u2019s Out Here Flexing Again",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: GSAP (GreenSock)",
@@ -3495,9 +3499,9 @@
     },
     {
       "video_id": "3m0TXas0Vjw",
-      "title": "Figma Full Course 2026 – Master Figma from Zero to Pro.",
+      "title": "Figma Full Course 2026 \u2013 Master Figma from Zero to Pro.",
       "creator": "Supercreator",
-      "core_focus": "High-ticket engineering breakdown: Figma Full Course 2026 – Master Figma from Zero to Pro.",
+      "core_focus": "High-ticket engineering breakdown: Figma Full Course 2026 \u2013 Master Figma from Zero to Pro.",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -3579,9 +3583,9 @@
     },
     {
       "video_id": "mT_Jjn8RJdo",
-      "title": "Learn Figma in 6 Hours – Full Course for 2026",
+      "title": "Learn Figma in 6 Hours \u2013 Full Course for 2026",
       "creator": "freeCodeCamp.org and Supercreator",
-      "core_focus": "High-ticket engineering breakdown: Learn Figma in 6 Hours – Full Course for 2026",
+      "core_focus": "High-ticket engineering breakdown: Learn Figma in 6 Hours \u2013 Full Course for 2026",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -3848,9 +3852,9 @@
     },
     {
       "video_id": "hw-6HZvfD6E",
-      "title": "SPLINE 🌐 The COMPLETE Guide : FULL Tutorial : HOW TO use Spline Start to Finish",
+      "title": "SPLINE \ud83c\udf10 The COMPLETE Guide : FULL Tutorial : HOW TO use Spline Start to Finish",
       "creator": "Eterenal Creative",
-      "core_focus": "High-ticket engineering breakdown: SPLINE 🌐 The COMPLETE Guide : FULL Tutorial : HOW TO use Spline Start to Finish",
+      "core_focus": "High-ticket engineering breakdown: SPLINE \ud83c\udf10 The COMPLETE Guide : FULL Tutorial : HOW TO use Spline Start to Finish",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Spline 3D",
@@ -3868,9 +3872,9 @@
     },
     {
       "video_id": "O_VWMp7nYVs",
-      "title": "New 3D Website Designer Will Blow Your Mind 😱 + $15,000 Prize! Omma by Spline Tool",
+      "title": "New 3D Website Designer Will Blow Your Mind \ud83d\ude31 + $15,000 Prize! Omma by Spline Tool",
       "creator": "Punit Chawla",
-      "core_focus": "High-ticket engineering breakdown: New 3D Website Designer Will Blow Your Mind 😱 + $15,000 Prize! Omma by Spline Tool",
+      "core_focus": "High-ticket engineering breakdown: New 3D Website Designer Will Blow Your Mind \ud83d\ude31 + $15,000 Prize! Omma by Spline Tool",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Spline 3D",
@@ -3928,9 +3932,9 @@
     },
     {
       "video_id": "KIsuIj-Ll3k",
-      "title": "How To Vibecode An Apple-Style AI Website Fast Using Google’s Gemini Free AI Tools [No-Code]",
+      "title": "How To Vibecode An Apple-Style AI Website Fast Using Google\u2019s Gemini Free AI Tools [No-Code]",
       "creator": "Andy Lo",
-      "core_focus": "High-ticket engineering breakdown: How To Vibecode An Apple-Style AI Website Fast Using Google’s Gemini Free AI Tools [No-Code]",
+      "core_focus": "High-ticket engineering breakdown: How To Vibecode An Apple-Style AI Website Fast Using Google\u2019s Gemini Free AI Tools [No-Code]",
       "valuation_tier": "High-Ticket ($10K+)",
       "key_techniques": [
         "Implemented core stack: Vanilla Modular JS, CSS3 Custom Properties, Intersection Observer",
@@ -4978,6 +4982,118 @@
       "quality_gates": [
         "Zero deployment blocker warnings",
         "Single-command deployment"
+      ]
+    },
+    {
+      "role_id": "agency-deep-thinker",
+      "name": "First-Principles Deep Thinker & Problem Deconstructor",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "WORKER",
+      "description": "Deconstructs complex problems to fundamental first principles, breaks conventional assumptions, and synthesizes pure conceptual models without writing code.",
+      "core_deliverables": [
+        "First-principles cognitive breakdown",
+        "Assumptions inversion ledger",
+        "Conceptual clarity manifesto"
+      ],
+      "quality_gates": [
+        "Zero boilerplate assumptions",
+        "Deep structural clarity"
+      ]
+    },
+    {
+      "role_id": "agency-idea-generator",
+      "name": "Creative Ideator & Divergent Brainstorm Engine",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "WORKER",
+      "description": "Generates high-volume divergent concepts, novel paradigms, lateral connections, and blue-sky innovation models.",
+      "core_deliverables": [
+        "Divergent concept catalog",
+        "Blue-sky feature possibilities",
+        "Lateral inspiration vectors"
+      ],
+      "quality_gates": [
+        "Minimum 20 distinct unconventional ideas",
+        "Zero cookie-cutter concepts"
+      ]
+    },
+    {
+      "role_id": "agency-conceptual-strategist",
+      "name": "Conceptual Systems Strategist",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "MANAGER",
+      "description": "Synthesizes raw ideas into cohesive conceptual frameworks, systems architecture, and strategic mental models.",
+      "core_deliverables": [
+        "High-level conceptual framework",
+        "Strategic cognitive roadmap",
+        "Mental model blueprints"
+      ],
+      "quality_gates": [
+        "Cohesive conceptual integrity",
+        "Clear causal theory of impact"
+      ]
+    },
+    {
+      "role_id": "agency-brand-philosopher",
+      "name": "Brand Philosopher & Narrative Worldbuilder",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "WORKER",
+      "description": "Develops foundational brand metaphysics, philosophical narrative ethos, cultural relevance, and mythos.",
+      "core_deliverables": [
+        "Brand philosophical manifesto",
+        "Ethos and cultural mythology",
+        "Resonant narrative themes"
+      ],
+      "quality_gates": [
+        "Profound emotional depth",
+        "Distinctive ideological posture"
+      ]
+    },
+    {
+      "role_id": "agency-contrarian-critic",
+      "name": "Contrarian Challenger & Red-Team Cognitive Doubter",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "REVIEWER",
+      "description": "Stress-tests ideas with rigorous intellectual critique, surfaces cognitive blind spots, and attacks conventional groupthink.",
+      "core_deliverables": [
+        "Socratic cross-examination",
+        "Cognitive blind spot matrix",
+        "Flaw stress-test report"
+      ],
+      "quality_gates": [
+        "Intellectual rigor",
+        "Vulnerability exposure without cynicism"
+      ]
+    },
+    {
+      "role_id": "agency-cognitive-synthesizer",
+      "name": "Cross-Domain Cognitive Synthesizer",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "WORKER",
+      "description": "Transfers insights across disparate disciplines (psychology, economics, physics, fine arts) to produce breakthrough angles.",
+      "core_deliverables": [
+        "Cross-disciplinary analogy dossier",
+        "Synthesis map",
+        "Hybridized model concepts"
+      ],
+      "quality_gates": [
+        "Multi-disciplinary grounding",
+        "Actionable conceptual transfer"
+      ]
+    },
+    {
+      "role_id": "agency-experience-visionary",
+      "name": "Human Experience & Aesthetic Dreamer",
+      "department": "Cognitive Ideation & Strategy",
+      "tier": "MANAGER",
+      "description": "Visualizes transcendent emotional journeys, sensory poetry, and profound human resonance.",
+      "core_deliverables": [
+        "Sensory experience vision",
+        "Emotional state progression",
+        "Aesthetic dreamscape narrative"
+      ],
+      "quality_gates": [
+        "Transcendent human resonance",
+        "Unforgettable experiential vision"
       ]
     }
   ],

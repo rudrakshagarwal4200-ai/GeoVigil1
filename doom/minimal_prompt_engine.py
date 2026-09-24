@@ -64,6 +64,11 @@ class MinimalToMaximalSynthesizer:
                     matched_motion.add(mo)
 
         # 3. Assemble Maximal Production Blueprint
+        is_thinker = any(w in prompt_lower for w in ["idea", "think", "ideat", "brainstorm", "concept", "philosophy", "strategy", "vision", "innovat", "hypothes"])
+        specialist_workers = agent_count - 3 - max(2, (agent_count + 9) // 10) - 2
+        thinker_count = specialist_workers if is_thinker else max(1, specialist_workers // 2)
+        coder_count = 0 if is_thinker else (specialist_workers - thinker_count)
+
         blueprint = {
             "original_minimal_prompt": minimal_prompt,
             "synthesized_tier": tier,
@@ -73,7 +78,10 @@ class MinimalToMaximalSynthesizer:
                 "orchestrators": 3,
                 "reviewers": max(2, (agent_count + 9) // 10),
                 "managers": 2,
-                "specialist_workers": agent_count - 3 - max(2, (agent_count + 9) // 10) - 2
+                "specialist_workers": specialist_workers,
+                "thinker_agents": thinker_count,
+                "coder_agents": coder_count,
+                "cognitive_mode": "PURE_THINKER_SWARM" if is_thinker else "HYBRID_COGNITIVE_ENGINE"
             },
             "master_design_tokens": {
                 "typography": {
