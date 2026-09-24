@@ -1,45 +1,69 @@
-# CUSTOMER #001 ACQUISITION PACKAGE
-## Execution Plan: Closing the First Live Deployment & Filling the Table
-*Freeze the code. Land the customer. Verify the cash.*
+# CUSTOMER #001: REFINED EXECUTION PROTOCOL & SCOREBOARD
+## The Definitive Operational Standard for Real-World Deployment
+*Zero fiction. Zero assumptions. Absolute chain of custody.*
 
 ---
 
-## 1. THE 3 QUALIFIED TARGET CANDIDATES
+## 1. THE 4-GATE EVIDENCE CUSTODY PROTOCOL
 
-Each candidate has been screened against the [ICP Qualification Scorecard](file:///e:/agy/ai_company/projects/apex_b2b_unicorn/ICP_QUALIFICATION_SCORECARD.md) (score >= 9/10):
+When the first company delivers invoices, the engineering team does not touch code. The data is processed through four strict gates:
 
-| Parameter | Candidate 1 (UAE Anchor) | Candidate 2 (US Gulf Anchor) | Candidate 3 (US West Coast Anchor) |
-|:---|:---|:---|:---|
-| **Company Profile** | **Mid-Market Cold-Chain Food Importer** | **Industrial & Petrochemical Logistics** | **Consumer Goods & Hardware Importer** |
-| **Location** | Jebel Ali Free Zone (JAFZA), Dubai, UAE | Port of Houston Corridor, Texas, USA | Long Beach / Los Angeles, California, USA |
-| **Annual Freight Spend** | **$28,000,000** | **$34,000,000** | **$42,000,000** |
-| **Estimated Container Moves** | ~7,500 TEU / year | ~9,200 TEU / year | ~11,500 TEU / year |
-| **Primary Billing Pain** | High reefer demurrage & electricity surcharges at Jebel Ali Port. | Terminal dwell disputes, rail interchange chassis fees. | Fluctuating Transpacific bunker adjustments & multi-carrier GRI. |
-| **Primary Carriers** | Maersk, MSC, CMA CGM, DP World Logistics | Hapag-Lloyd, MSC, Maersk, Gulf Drayage | Evergreen Marine, ONE, Maersk, Cosco |
-| **ERP / Accounting** | NetSuite / CargoWise | SAP Business One | Microsoft Dynamics 365 |
-| **Target Decision Maker** | Chief Financial Officer | VP of Finance & Global Procurement | Chief Financial Officer |
+```
+┌────────────────────────────────────────────────────────┐
+│ GATE 0: EVIDENCE RECEIPT & CHAIN OF CUSTODY            │
+│ • Cryptographic SHA-256 hash generated for every file. │
+│ • Filename, source, timestamp, and doc type logged.    │
+│ • Raw originals permanently locked in read-only vault. │
+│ • Manifest created; missing documents explicitly noted.│
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ GATE 1: BLIND INGESTION (NO PRIMING)                   │
+│ • Analysts are given zero priors or hypotheses.        │
+│ • No "we think this client has demurrage leaks" bias.  │
+│ • Documents speak for themselves without human priming.│
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ GATE 2: FROZEN DETERMINISTIC RECONCILIATION            │
+│ • Run strictly against the frozen production engine.   │
+│ • If a rate sheet is missing: Output is "UNKNOWN".     │
+│ • No ad-hoc parser modifications or synthetic patches. │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+┌──────────────────────────▼─────────────────────────────┐
+│ GATE 3: 4-TIER DISPUTE ADJUDICATION                    │
+│ • Class A (PROVEN): Contract + Operational + Variance  │
+│   ──► ONLY CLASS A ENTERS RECOVERY LEDGER              │
+│ • Class B (PROBABLE): Missing 1 doc ──► Internal Hold  │
+│ • Class C (INSUFFICIENT): Minor anomaly ──► Suppressed │
+│ • Class D (LEGITIMATE): Explained ──► Closed           │
+└────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 2. THE 85-WORD OUTREACH SCRIPT (ZERO AI BUZZWORDS)
+## 2. THE REFINED ZERO-ASSUMPTION OUTREACH SCRIPT
+
+*Removed all speculative claims about "your company's leakage". We make zero assumptions about their books:*
 
 ```text
-Subject: Q1–Q3 2025 freight overbilling audit (Recoverable vendor cash)
+Subject: Past freight billing reconciliation (Q1–Q3 2025 carrier spend)
 
 Dear [CFO Name],
 
-In mid-market ocean shipping, carrier billing discrepancies on detention, demurrage free-day clocks, and fuel adjustments quietly consume 1.5% to 3.5% of annual freight spend.
+In international ocean freight, complex accessorial tariffs—such as demurrage free-day clocks, bunker adjustments, and split drayage surcharges—frequently contain billing discrepancies that go undetected during routine AP processing.
 
-We run a deterministic reconciliation audit that cross-checks your past carrier invoices against actual Bills of Lading and contractual rate sheets.
+We operate a deterministic audit that reconciles historical carrier invoices directly against your actual Bills of Lading and contracted rate cards.
 
 The terms:
-1. We sign a mutual NDA with an explicit guarantee that your data is never used to train machine learning models.
-2. Your team securely uploads 500 to 1,000 past paid freight invoices from Q1–Q3 2025 into a private, read-only data room.
-3. In 7 days, we deliver an Evidence-Backed Audit Report detailing verified overcharges.
+1. We execute a mutual NDA with an explicit contractual guarantee that your data is never retained or used to train machine learning models.
+2. Your team provides 500 to 1,000 past paid freight invoices and rate sheets from Q1–Q3 2025 via a private, read-only data room.
+3. In 7 business days, we deliver an Evidence-Backed Audit Report detailing only verified overcharges.
 
-If we find zero overcharges, the audit costs you nothing. If we recover money, our fee is a contingent 20% of actual cash refunds or applied credits.
+If we find zero overcharges, the audit costs you nothing. If we recover money, our fee is a contingent 20% of actual cash refunds or verified credits applied to your payables.
 
-Are you open to reviewing a 1-page sample dispute recommendation this week?
+Are you open to reviewing a 1-page sample evidence packet this week?
 
 Best regards,
 Apex Recover AP Operations
@@ -47,37 +71,38 @@ Apex Recover AP Operations
 
 ---
 
-## 3. SAFE HARBOR 1-PAGE MUTUAL NON-DISCLOSURE & GOVERNANCE COVENANT
+## 3. UNAMBIGUOUS LEGAL DEFINITION OF "RECOVERED VALUE"
 
-The single hurdle that stops CFOs is data security. We preempt the security questionnaire with a **Safe Harbor Non-Disclosure & Non-Training Covenant**:
+To permanently eliminate contractual ambiguity between Apex and the client CFO:
 
-1. **Strictly Read-Only Access**:
-   * Client provides past paid invoice PDFs, rate sheets, and BOL manifests.
-   * **Apex Recover requires zero write access to client bank accounts, general ledgers, or payment rails.**
-2. **Explicit Non-Training Guarantee**:
-   * *"All client financial data, vendor rate sheets, trade lanes, and pricing details remain the exclusive proprietary property of Client. Apex Recover contractually warrants that Client data shall never be stored in public model caches, shared across tenants, or utilized to fine-tune foundational AI models."*
-3. **Data Erasure on Demand**:
-   * Client may trigger full cryptographic purge of all uploaded records upon audit completion with an official Certificate of Destruction.
-4. **Pure Contingency Commercial Term**:
-   * Fees are recognized **solely when cash refunds are deposited into Client bank accounts or credit memos are applied against active payables**.
+> **"Recovered Value"** is defined strictly and exclusively as:
+> 1. **Direct Cash Refund**: A cash wire or check deposited into the Client's operating bank account from a carrier referencing a disputed invoice.
+> 2. **Applied Credit Memo**: An official carrier Credit Memo that has been **actively applied and verified as a deduction against an existing, approved payable** in the Client's accounting ledger.
+> 
+> *Explicit Non-Billable Exclusions*:
+> - Merely identifying an overcharge without carrier settlement is **NOT** billable.
+> - An unapplied or expired credit memo is **NOT** billable until consumed against a real payable.
+> - A disputed balance that the client voluntarily waives for commercial relationship reasons is **NOT** billable.
 
 ---
 
-## 4. THE CUSTOMER #001 PRODUCTION RESULTS TABLE (INITIALIZED)
+## 4. THE LIVE PRODUCTION SCOREBOARD (ZERO FICTION)
 
-The empty slot waiting for reality:
+*All speculative target numbers have been removed. Every metric sits at $0.00 until verified in the bank:*
 
-| Metric | Target Milestone (Customer #001) | Actual Verified Result | Status |
-|:---|:---:|:---:|:---:|
-| **Customer ID** | `CUST-001` (Mid-Market Logistics) | Pending Ingestion | `ONBOARDING` |
-| **Audit Sample Size** | 1,000 Historical Invoices (Q1–Q3 2025) | — | Pending Upload |
-| **Total Spend Audited** | ~$3,500,000 | — | — |
-| **Stage 1: Detected Variance** | ~$75,000 (est. 2.1%) | — | — |
-| **Stage 2: Accepted by CFO** | ~$60,000 (after counter-evidence gate) | — | — |
-| **Stage 3: Recovered from Carriers** | ~$48,000 (est. 80% settlement) | — | — |
-| **Stage 4: CASH VERIFIED** | **$48,000 in bank / applied credits** | **$0.00** | **ACTIVE TARGET** |
-| **Apex 20% Contingency Fee** | **$9,600** | **$0.00** | — |
-| **Client Net Cash Retained** | **$38,400 (4.0x ROI)** | **$0.00** | — |
-| **Human Review Time** | < 4 hours total CFO time | — | — |
-
-The production tracking file is initialized at [`e:\agy\ai_company\projects\apex_b2b_unicorn\forensic_engine\ledger_CUST_001.json`](file:///e:/agy/ai_company/projects/apex_b2b_unicorn/forensic_engine/ledger_CUST_001.json).
+| Official Scoreboard Metric | Value (Customer #001) | Verification Source |
+|:---|:---:|:---:|
+| **Customer Identification** | `CUST-001` (Pending Live Ingestion) | Qualified Candidate |
+| **Real Invoices Ingested** | **0** | Gate 0 Hash Manifest |
+| **Audited Spend** | **$0.00** | Ledger Baseline |
+| **Evidence-Backed Variance (Class A)** | **$0.00** | Gate 3 Adjudication |
+| **CFO Accepted for Dispute** | **$0.00** | Client Written Approval |
+| **Carrier Credits / Refunds Issued** | **$0.00** | Carrier Credit Note Memo |
+| **CASH / APPLIED CREDIT INDEPENDENTLY VERIFIED** | **$0.00** | **Bank Statement / ERP Ledger Hash** |
+| **Apex 20% Fee Realized** | **$0.00** | **Cash Invoice Paid** |
+| **Client Net Benefit in Pocket** | **$0.00** | **Net Cash Gain** |
+| **Client Finance-Team Hours Required** | **0.0 hrs** | Time-Tracking Log |
+| **Customer Finance Hours Eliminated** | **0.0 hrs** | Benchmark Comparison |
+| **Days to First Verified Recovery** | **—** | Timestamp Delta |
+| **False Disputes Issued** | **0 / 0** | Zero Tolerance Gate |
+| **Customer #002 Status** | `PIPELINE` | Sourcing Stage |
